@@ -5,12 +5,13 @@
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
 
 <head>
+<!--Here I am linking my CSS file-->   
+    <link rel="stylesheet" href="indexstyle.css">
 
 <!--The next three lines allow the Vega embed-->
 <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
-<link rel="stylesheet" href="indexstyle.css">
 
 </head>
 
@@ -50,7 +51,7 @@
 <!--Chart 3 -->
         <h3>Bitcoin</h3>
         <p>The Third chart looks at the evolution of Bitcoin price.</p>
-  <div class="chart" id="chart3">
+<div class="chart" id="chart3">
       <script>
         var myChart3 = "chartcrypto1.json";
         vegaEmbed('#chart3', myChart3);
@@ -58,7 +59,13 @@
   </div>
 
   <!--Chart 4 -->
-
+        <h3>My live chart with new cases by Publish date data (Route 1)</h3>
+        <p>My Fourth chart looks at new cases in three UK locations.</p>
+<div class="chart" id="chart4">
+        <script>
+         var myChart3 = "MyCovidDataAPIChart.json";
+         vegaEmbed('#chart4', myChart4);
+            </script>
 
 </body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
