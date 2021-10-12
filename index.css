@@ -9,6 +9,12 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 
+h2 {
+    text-align: center;
+    color: rgb(219, 188, 188);
+    font-family: 'Poppins', sans-serif;
+}
+
 h3 {
     color: #f4c245;
     font-family: 'Poppins', sans-serif;
@@ -21,7 +27,7 @@ p {
 
 .chart {
     vertical-align: center;
-    width: 350px;
+    width: 400px;
     border-width: 10px;
     background-color: white;
     border-style: solid;
