@@ -44,7 +44,6 @@ p {
 
 .container {
     display: flex;
-    background-color: #264653;
     align-items: center;
     justify-content: center;
 }
