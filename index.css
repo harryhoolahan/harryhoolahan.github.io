@@ -27,13 +27,13 @@ p {
 
 .chart {
     font-family: Arial, Helvetica, sans-serif;
-    vertical-align: center;
+    align-items: center;
     width: 400px;
-    border-width: 10px;
+    border: #4B0082 solid 3.5px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 8px;
     background-color: white;
     border-style: solid;
-    border-radius: 10px;
     border-color: white;
-    padding: 8px;
-    margin: 10px;
 }
