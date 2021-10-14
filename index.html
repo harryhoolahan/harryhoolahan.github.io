@@ -26,18 +26,18 @@
 <body>
     <header>
         <h1>Data Science 2021</h1>
-        <h2>by Harry Hoolahan</h3>
-            <div class="container">
-                <button class="button-56" role="button">Project</button>
-                <button class="button-56" onclick="location.href='https://github.com/xi19078/xi19078.github.io'">Github</button>
-                <button class="button-56" onclick="location.href='https://rapidcharts.io/datascience'">Course Structure
+        <h1>by Harry Hoolahan</h1>
+        <div class="container">
+            <button class="button-56" role="button">Project</button>
+            <button class="button-56" onclick="location.href='https://github.com/xi19078/xi19078.github.io'">Github</button>
+            <button class="button-56" onclick="location.href='https://rapidcharts.io/datascience'">Course Structure
         </button>
-            </div>
+        </div>
     </header>
 
 
     <!--Chart 1 -->
-    <h3>Week 1 - Introduction to HTML</h3>
+    <h2>Week 1 - Introduction to HTML</h2>
     <div class="chart" id="chart1">
         <script>
             var myChart1 = "chart1_covidUKRegions.json";
@@ -61,8 +61,8 @@
         </script>
     </div>
 
-    <!--Chart 4 -->
     <h2>Week 2 - API Data</h2>
+    <!--Chart 4 -->
     <h3>New Cases by punlish date data (API data)</h3>
     <p>Fourth chart looks at new cases in three UK locations using live data.</p>
     <div class="chart" id="chart4">
@@ -82,6 +82,16 @@
         </script>
     </div>
 
+    <h2>Week 3 - Json Objects and Java Script arrays</h2>
+    <!--Chart 6 -->
+    <h3>Manchester United Historic performance</h3>
+    <p>The sixth chart uses a new skill where we encode the graphs data manually instead of importing the CVS URL.</p>
+    <div class="chart" id="chart6">
+        <script>
+            var myChart6 = "ManchesterUnitedPointsChart.json";
+            vegaEmbed('#chart6', myChart6);
+        </script>
+    </div>
 
 </body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
