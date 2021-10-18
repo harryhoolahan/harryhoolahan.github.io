@@ -7,6 +7,7 @@ body {
 h1 {
     color: rgb(87, 145, 39);
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 h2 {
@@ -46,4 +47,64 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.button_container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 190%)
+}
+
+.button_su {
+    width: 140px;
+    font-family: "Catamaran";
+    font-weight: 900;
+    background-color: rgba(31, 42, 53, 0.3);
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.su_button_circle {
+    background-color: red;
+    border-radius: 1000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    pointer-events: none;
+    /*animation-timing-function: ease-in-out; */
+}
+
+.button_su_inner {
+    display: inline-block;
+    background: #F8B627;
+    color: #F4F4F4;
+    font-size: 16px;
+    font-weight: normal;
+    width: 132px;
+    text-align: center;
+    border-radius: 3px;
+    transition: 400ms;
+    text-decoration: none;
+    padding: 22px;
+    z-index: 100000;
+}
+
+.button1:hover {
+    background-color: rgb(255, 173, 31);
+    /* transition-delay: 1s;
+    transition-property: background-color; */
 }
