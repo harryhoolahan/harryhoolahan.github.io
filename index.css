@@ -1,11 +1,11 @@
 body {
-    background-color: #2a364f;
+    background-color: #122b39;
     max-width: 450px;
     margin: auto;
 }
 
 h1 {
-    color: rgba(225, 225, 225, 0.8);
+    color: rgb(219, 188, 188);
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
