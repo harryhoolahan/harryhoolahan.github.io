@@ -97,3 +97,9 @@ p {
     position: relative;
     z-index: 10000;
 }
+
+.buttonDiv1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
