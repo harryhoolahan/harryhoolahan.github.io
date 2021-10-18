@@ -50,10 +50,10 @@ p {
 }
 
 .button_container {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, 190%)
+    width: 176px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 40px;
 }
 
 .button_su {
@@ -101,10 +101,4 @@ p {
     text-decoration: none;
     padding: 22px;
     z-index: 100000;
-}
-
-.button1:hover {
-    background-color: rgb(255, 173, 31);
-    /* transition-delay: 1s;
-    transition-property: background-color; */
 }
