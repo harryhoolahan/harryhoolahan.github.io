@@ -1,0 +1,43 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "description": "Monthly Index of gross domestic product in the United Kingdom",
+    "title": {
+        "text": "Monthly Index of gross domestic product in the United Kingdom",
+        "subtitle": "Source: ONS",
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "black"
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/harryhoolahan/harryhoolahan.github.io/main/week8/monthlygvatable.csv"
+    },
+    "height": 300,
+    "width": 300,
+    "mark": {
+        "type": "line",
+        "point": true,
+        "interpolate": "monotone",
+        "color": "blueviolet"
+    },
+    "encoding": {
+        "x": {
+            "field": "Time Period",
+            "type": "temporal",
+            "axis": {
+                "title": "",
+                "tickCount": 10,
+                "labelExpr": "[timeFormat(datum.value, '%b'), timeFormat(datum.value, '%m') == '01' ? timeFormat(datum.value, '%Y') : '']",
+                "grid": false,
+                "labelSeparation": 0,
+                "ticks": false
+            }
+        },
+        "y": {
+            "field": "Total GVA at basic prices",
+            "type": "quantitative",
+            "title": "GDP Index (100=2018)",
+            "axis": { "grid": false }
+        }
+    }
+}
