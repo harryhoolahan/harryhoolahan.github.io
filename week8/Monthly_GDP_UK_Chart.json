@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "description": "Monthly Index of gross domestic product in the United Kingdom",
+    "description": "Monthly Index of gross domestic product in the UK",
     "title": {
-        "text": "Monthly Index of gross domestic product in the United Kingdom",
+        "text": "Monthly Index of gross domestic product in the UK",
         "subtitle": "Source: ONS",
         "subtitleFontStyle": "italic",
         "subtitleFontSize": 10,
