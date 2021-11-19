@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "description": "Monthly Index of gross domestic product in the UK",
+    "description": "Monthly Index of gross value added in the UK",
     "title": {
-        "text": "Monthly Index of gross domestic product in the UK",
+        "text": "Monthly Index of gross value added in the UK",
         "subtitle": "Source: ONS",
         "subtitleFontStyle": "italic",
         "subtitleFontSize": 10,
@@ -36,7 +36,7 @@
         "y": {
             "field": "Total GVA at basic prices",
             "type": "quantitative",
-            "title": "GDP Index (100=2018)",
+            "title": "GVA Index (100 = 2019 Nov)",
             "axis": { "grid": false }
         }
     }
