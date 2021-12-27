@@ -12,7 +12,7 @@
     "data": {
         "url": "https://raw.githubusercontent.com/harryhoolahan/harryhoolahan.github.io/main/week7/Tokyo_2020_Table.csv"
     },
-    "height": 200,
+    "height": 300,
     "width": 300,
     "transform": [{ "filter": "datum.Rank <20" }],
     "mark": "bar",
