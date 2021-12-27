@@ -1,0 +1,27 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Tokyo 2020 Gold Medals",
+    "title": {
+        "text": "2020 Tokyo Olmpics Gold Medals ",
+        "subtitle": "Scraped from BBC Sport",
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "black"
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/harryhoolahan/harryhoolahan.github.io/main/week7/Tokyo_2020_Table.csv"
+    },
+    "height": 200,
+    "width": 300,
+    "transform": [{ "filter": "datum.Rank <20" }],
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "Country",
+            "type": "nominal",
+            "sort": { "op": "count", "field": "rank" }
+        },
+        "y": { "field": "Gold", "type": "quantitative", "title": "Gold Medals" }
+    }
+}
