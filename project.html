@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- ///////////////////  HEAD //////////////////////////////////// -->
+<!-- ///////////////////  START HEAD //////////////////////////////////// -->
 
 <head>
-
-
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 
     <!--Linking my CSS file-->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="project.CSS">
 
     <!--Here are the buttons that link to my project and back to the homepage-->
     <div class="buttonDiv1">
         <button class="button1">
-            <a href="https://xi19078.github.io/">
+            <a href="https://harryhoolahan.github.io/">
                 <strong>Homepage</strong>
             </a>
         </button>
@@ -28,13 +26,24 @@
                     <strong>My Portfolio</strong>
                 </a>
             </button>
-
-
-
 </head>
+<!-- ///////////////////  END HEAD ////////////////////////////////////// -->
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
 
 <body>
-    <h1>Harry Hoolahan: Data Visualisation Project</h1>
+    <h1>Data Science Project: How important is a country's economy to their olympic sucess</h1>
+
+
+    <!--Chart 17 -->
+    <div class="chart" id="chart17">
+        <script>
+            var myChart17 = "week9/GDP_Rio_Olympic_Medals_Chart.json";
+            vegaEmbed('#chart17', myChart17);
+        </script>
+    </div>
+
+    <!-- ///////////////////  END BODY ////////////////////////////////////// -->
 </body>
 
 </html>
