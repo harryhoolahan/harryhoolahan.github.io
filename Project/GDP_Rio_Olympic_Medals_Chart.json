@@ -1,0 +1,66 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Figure 1: GDP and Olympic medals",
+        "subtitle": [
+            "2016 GDP, PPP (constant 2017 international $). Source World Bank. Rio", "2016 Medals. Source scraped from Olympic Games Musuem."
+
+        ],
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "subtitleColor": "#dbd8d8ec",
+        "anchor": "start",
+        "color": "white",
+        "fontWeight": "bold"
+    },
+    "height": 300,
+    "width": 300,
+    "data": {
+        "url": "https://raw.githubusercontent.com/harryhoolahan/harryhoolahan.github.io/main/week9/Rio_data.csv"
+    },
+    "config": { "background": "#122b39" },
+    "view": { "stroke": "transparent" },
+
+    "layer": [{
+            "mark": { "type": "point", "tooltip": { "content": "data" }, "filled": true, "color": "#f4c245" },
+            "encoding": {
+                "x": {
+                    "field": "2016_log",
+                    "title": "GDP, PPP (log scale)",
+                    "type": "quantitative",
+                    "axis": { "titleColor": "white", "grid": false, "labelColor": "white" }
+                },
+                "y": {
+                    "field": "Medal Points log",
+                    "title": "Olympic Medal Points (log scale)",
+                    "type": "quantitative",
+                    "axis": { "titleColor": "white", "grid": false, "labelColor": "white" }
+                }
+            }
+        },
+
+
+        {
+            "mark": { "type": "line", "color": "red" },
+            "transform": [{ "regression": "Medal Points log", "on": "2016_log" }],
+            "encoding": {
+                "x": { "field": "2016_log", "type": "quantitative" },
+                "y": { "field": "Medal Points log", "type": "quantitative" }
+            }
+        },
+        {
+            "transform": [
+                { "regression": "Medal Points log", "on": "2016_log", "params": true },
+                { "calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2" }
+            ],
+            "mark": {
+                "type": "text",
+                "color": "white",
+                "x": "width",
+                "align": "right",
+                "y": -5
+            },
+            "encoding": { "text": { "type": "nominal", "field": "R2" } }
+        }
+    ]
+}
