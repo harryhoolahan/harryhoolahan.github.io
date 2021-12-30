@@ -1,0 +1,44 @@
+/* CSS for project page */
+
+
+/* CSS for computer screens */
+
+@media only screen and (min-width: 840px) {
+    body {
+        background-color: #122b39;
+        max-width: 800px;
+        margin: auto;
+    }
+    h1 {
+        color: rgb(212, 204, 204);
+        font-family: 'Poppins', sans-serif;
+    }
+    h2 {
+        color: #f4c245;
+        font-family: 'Poppins', sans-serif;
+    }
+    h3 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    p {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    .chart {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 390px;
+        border: #4B0082 solid 3.5px;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 5px;
+        background-color: #122b39;
+        border-style: solid;
+        border-color: white;
+    }
+}
