@@ -1,41 +1,60 @@
-/* CSS for project page */
-
-
-/* CSS for computer screens */
-
-@media only screen and (min-width: 840px) {
-    body {
-        background-color: #122b39;
-        max-width: 800px;
-        margin: auto;
+    /* CSS for project page */
+    /* CSS for computer screens */
+    
+    @media only screen and (min-width: 840px) {
+        body {
+            background-color: #122b39;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            color: rgb(212, 204, 204);
+            font-family: 'Poppins', sans-serif;
+        }
+        h2 {
+            color: #f4c245;
+            font-family: 'Poppins', sans-serif;
+        }
+        h3 {
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        p {
+            font-family: 'Poppins', sans-serif;
+            color: white;
+        }
+        .chart {
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            width: 400px;
+            height: 400px;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 5px;
+            background-color: #122b39;
+            border-style: solid;
+            border-color: #f4c245;
+        }
+        .navigationbutton {
+            border: 1px solid #f4c245;
+            background-color: #f4c245;
+            color: black;
+            font-family: Arial;
+            line-height: 20px;
+            font-weight: 600;
+            border-radius: 150px;
+            box-sizing: content-box;
+            align-items: flex-start;
+            display: inline-block;
+            font-size: 12px;
+            margin: 1px 2px 1px 2px;
+            text-decoration: none;
+            max-width: 100px;
+            outline-offset: 2px;
+            overflow: hidden;
+            padding: 5px 12px;
+            text-align: left;
+            text-overflow: ellipsis;
+        }
     }
-    h1 {
-        color: rgb(212, 204, 204);
-        font-family: 'Poppins', sans-serif;
-    }
-    h2 {
-        color: #f4c245;
-        font-family: 'Poppins', sans-serif;
-    }
-    h3 {
-        color: white;
-        font-family: 'Poppins', sans-serif;
-    }
-    p {
-        font-family: 'Poppins', sans-serif;
-        color: white;
-    }
-    .chart {
-        display: flex;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
-        width: 400px;
-        height: 400px;
-        border-radius: 10px;
-        margin: 10px;
-        padding: 5px;
-        background-color: #122b39;
-        border-style: solid;
-        border-color: #f4c245;
-    }
-}
