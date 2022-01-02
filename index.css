@@ -54,7 +54,7 @@ p {
     padding: 5px;
     background-color: #122b39;
     border-style: solid;
-    border-color: #122b39;
+    border-color: #f4c245;
 }
 
 .container {
@@ -63,35 +63,24 @@ p {
     justify-content: center;
 }
 
-.button_container {
-    width: 170px;
-    margin: auto;
-    margin-top: 30px;
-    padding-top: 40px;
-}
-
-.button_su {
-    position: relative;
-    border-radius: 3px;
-    margin-bottom: 30px;
-}
-
-.button_su_inner {
+.navigationbutton {
+    border: 1px solid #f4c245;
+    background-color: #f4c245;
+    color: black;
+    font-family: Arial;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 150px;
+    box-sizing: content-box;
+    align-items: flex-start;
     display: inline-block;
-    background: #F8B627;
-    color: Black;
-    font-size: 16px;
-    font-weight: normal;
-    width: 132px;
-    text-align: center;
-    border-radius: 3px;
-    transition: 400ms;
+    font-size: 12px;
+    margin: 1px 2px 1px 2px;
     text-decoration: none;
-    padding: 22px;
-    z-index: 100000;
-}
-
-.button_text_container {
-    position: relative;
-    z-index: 10000;
+    max-width: 100px;
+    outline-offset: 2px;
+    overflow: hidden;
+    padding: 5px 12px;
+    text-align: left;
+    text-overflow: ellipsis;
 }
