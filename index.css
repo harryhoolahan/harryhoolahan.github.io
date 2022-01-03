@@ -19,11 +19,13 @@ h2 {
 h3 {
     color: white;
     font-family: 'Poppins', sans-serif;
+    text-align: left;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
     color: white;
+    text-align: left;
 }
 
 .chart {
@@ -55,6 +57,7 @@ p {
     background-color: #122b39;
     border-style: solid;
     border-color: #f4c245;
+    border-width: 1px;
 }
 
 .container {
