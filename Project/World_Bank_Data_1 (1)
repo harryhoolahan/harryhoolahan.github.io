@@ -1,0 +1,409 @@
+,Country,Series,YR2008,YR2012,YR2016,Country Code,Continent,Gold (2016),Silver (2016),Bronze (2016),Total (2016)
+0,Zimbabwe,"Population, total",12379553.0,13115149.0,14030338.0,ZWE,Africa,0,0,0,0
+1,Zambia,"Population, total",12848531.0,14465148.0,16363449.0,ZMB,Africa,0,0,0,0
+2,South Africa,"Population, total",49779472.0,52832659.0,56207649.0,ZAF,Africa,2,6,2,10
+3,"Yemen, Rep.","Population, total",21892149.0,24473176.0,27168210.0,,,0,0,0,0
+4,Kosovo,"Population, total",1747383.0,1807106.0,1777557.0,XKX,Europe,1,0,0,1
+5,Samoa,"Population, total",183270.0,189089.0,194540.0,WSM,Oceania,0,0,0,0
+6,Vanuatu,"Population, total",224700.0,249505.0,278326.0,VUT,Oceania,0,0,0,0
+7,Vietnam,"Population, total",86243424.0,89801926.0,93640435.0,VNM,Asia,1,1,0,2
+8,Virgin Islands (U.S.),"Population, total",108397.0,108188.0,107516.0,VIR,North America,0,0,0,0
+9,British Virgin Islands,"Population, total",26096.0,28654.0,29355.0,VGB,North America,0,0,0,0
+10,"Venezuela, RB","Population, total",27635827.0,29360827.0,29851249.0,,,0,0,0,0
+11,St. Vincent and the Grenadines,"Population, total",108401.0,108435.0,109467.0,,,0,0,0,0
+12,Uzbekistan,"Population, total",27302800.0,29774500.0,31847900.0,UZB,Asia,4,2,7,13
+13,United States,"Population, total",304093966.0,313877662.0,323071755.0,USA,North America,46,37,38,121
+14,Uruguay,"Population, total",3340221.0,3378975.0,3424139.0,URY,South America,0,0,0,0
+15,Ukraine,"Population, total",46258189.0,45593342.0,45004673.0,UKR,Europe,2,5,4,11
+16,Uganda,"Population, total",30431734.0,34558700.0,39649173.0,UGA,Africa,0,0,0,0
+17,Tanzania,"Population, total",41853944.0,47053033.0,53049231.0,TZA,Africa,0,0,0,0
+18,Tuvalu,"Population, total",10315.0,10744.0,11232.0,TUV,Oceania,0,0,0,0
+19,Turkey,"Population, total",70418612.0,74651046.0,79827868.0,TUR,Europe,1,3,4,8
+20,Tunisia,"Population, total",10414425.0,10846993.0,11303942.0,TUN,Africa,0,0,3,3
+21,Trinidad and Tobago,"Population, total",1314449.0,1344814.0,1377563.0,TTO,North America,0,0,1,1
+22,Tonga,"Population, total",103384.0,102736.0,101143.0,TON,Oceania,0,0,0,0
+23,Timor-Leste,"Population, total",1055428.0,1133002.0,1219289.0,TLS,Asia,0,0,0,0
+24,Turkmenistan,"Population, total",4935765.0,5267906.0,5662371.0,TKM,Asia,0,0,0,0
+25,Tajikistan,"Population, total",7209924.0,7874838.0,8663575.0,TJK,Asia,1,0,0,1
+26,Thailand,"Population, total",66530980.0,67835969.0,68971313.0,THA,Asia,2,2,2,6
+27,Togo,"Population, total",6083417.0,6773807.0,7509952.0,TGO,Africa,0,0,0,0
+28,Chad,"Population, total",11183589.0,12784748.0,14561658.0,TCD,Africa,0,0,0,0
+29,Syrian Arab Republic,"Population, total",20664037.0,20438861.0,17465567.0,,,0,0,0,0
+30,Seychelles,"Population, total",86956.0,88303.0,94677.0,SYC,Africa,0,0,0,0
+31,Eswatini,"Population, total",1049948.0,1079285.0,1113994.0,SWZ,Africa,0,0,0,0
+32,Sweden,"Population, total",9219637.0,9519374.0,9923085.0,SWE,Europe,2,6,3,11
+33,Slovenia,"Population, total",2021316.0,2057159.0,2065042.0,SVN,Europe,1,2,1,4
+34,Slovak Republic,"Population, total",5379233.0,5407579.0,5430798.0,,,0,0,0,0
+35,Suriname,"Population, total",517122.0,541247.0,564883.0,SUR,South America,0,0,0,0
+36,Sao Tome and Principe,"Population, total",171122.0,188394.0,203221.0,STP,Africa,0,0,0,0
+37,South Sudan,"Population, total",8736932.0,10113648.0,10832520.0,SSD,Africa,0,0,0,0
+38,Serbia,"Population, total",7350222.0,7199077.0,7058322.0,SRB,Europe,2,4,2,8
+39,Somalia,"Population, total",11397188.0,12715487.0,14185635.0,SOM,Africa,0,0,0,0
+40,San Marino,"Population, total",30434.0,32103.0,33503.0,SMR,Europe,0,0,0,0
+41,El Salvador,"Population, total",6131767.0,6237922.0,6356137.0,SLV,North America,0,0,0,0
+42,Sierra Leone,"Population, total",6133599.0,6712586.0,7328846.0,SLE,Africa,0,0,0,0
+43,Solomon Islands,"Population, total",503366.0,556066.0,619438.0,SLB,Oceania,0,0,0,0
+44,Singapore,"Population, total",4839396.0,5312437.0,5607283.0,SGP,Asia,1,0,0,1
+45,Senegal,"Population, total",12004700.0,13401990.0,14993514.0,SEN,Africa,0,0,0,0
+46,Sudan,"Population, total",33060844.0,36193781.0,39847433.0,SDN,Africa,0,0,0,0
+47,Saudi Arabia,"Population, total",25888535.0,29154906.0,32443443.0,SAU,Asia,0,0,0,0
+48,Rwanda,"Population, total",9524532.0,10549668.0,11668829.0,RWA,Africa,0,0,0,0
+49,Russian Federation,"Population, total",142742366.0,143201721.0,144342397.0,RUS,Europe,19,18,19,56
+50,Romania,"Population, total",20537875.0,20058035.0,19702267.0,ROU,Europe,1,1,3,5
+51,Qatar,"Population, total",1436670.0,2196078.0,2654379.0,QAT,Asia,0,1,0,1
+52,West Bank and Gaza,"Population, total",3591977.0,3979998.0,4367088.0,,,0,0,0,0
+53,Paraguay,"Population, total",6081296.0,6421510.0,6777878.0,PRY,South America,0,0,0,0
+54,Portugal,"Population, total",10558177.0,10514844.0,10325452.0,PRT,Europe,0,0,1,1
+55,"Korea, Dem. People's Rep.","Population, total",24310143.0,24800638.0,25307665.0,,,0,0,0,0
+56,Puerto Rico,"Population, total",3760866.0,3634488.0,3406672.0,PRI,North America,1,0,0,1
+57,Poland,"Population, total",38125759.0,38063164.0,37970087.0,POL,Europe,2,3,6,11
+58,Papua New Guinea,"Population, total",6976200.0,7631003.0,8271766.0,PNG,Oceania,0,0,0,0
+59,Palau,"Population, total",18708.0,17635.0,17718.0,PLW,Oceania,0,0,0,0
+60,Philippines,"Population, total",90901967.0,97212639.0,103663812.0,PHL,Asia,0,1,0,1
+61,Peru,"Population, total",28562321.0,29506790.0,30926036.0,PER,South America,0,0,0,0
+62,Panama,"Population, total",3516204.0,3770635.0,4037073.0,PAN,North America,0,0,0,0
+63,Pakistan,"Population, total",171648984.0,187280125.0,203631356.0,PAK,Asia,0,0,0,0
+64,Oman,"Population, total",2750956.0,3498031.0,4479217.0,OMN,Asia,0,0,0,0
+65,New Zealand,"Population, total",4259800.0,4408100.0,4714100.0,NZL,Oceania,4,9,5,18
+66,Nauru,"Population, total",9880.0,10136.0,10474.0,NRU,Oceania,0,0,0,0
+67,Nepal,"Population, total",26666581.0,26989160.0,27263430.0,NPL,Asia,0,0,0,0
+68,Norway,"Population, total",4768212.0,5018573.0,5234519.0,NOR,Europe,0,0,4,4
+69,Netherlands,"Population, total",16445593.0,16754962.0,17030314.0,NLD,Europe,8,7,4,19
+70,Nicaragua,"Population, total",5667436.0,5982530.0,6303970.0,NIC,North America,0,0,0,0
+71,Nigeria,"Population, total",150269622.0,167228803.0,185960244.0,NGA,Africa,0,0,1,1
+72,Niger,"Population, total",15250913.0,17795209.0,20788789.0,NER,Africa,0,1,0,1
+73,Namibia,"Population, total",2043382.0,2194777.0,2358044.0,NAM,Africa,0,0,0,0
+74,Malaysia,"Population, total",27236003.0,29068189.0,30684652.0,MYS,Asia,0,4,1,5
+75,Malawi,"Population, total",13727899.0,15396010.0,17205253.0,MWI,Africa,0,0,0,0
+76,Mauritius,"Population, total",1244121.0,1255882.0,1263473.0,MUS,Africa,0,0,0,0
+77,Mauritania,"Population, total",3296237.0,3706555.0,4163532.0,MRT,Africa,0,0,0,0
+78,Mozambique,"Population, total",22276596.0,24862673.0,27829930.0,MOZ,Africa,0,0,0,0
+79,Mongolia,"Population, total",2631899.0,2824698.0,3056358.0,MNG,Asia,0,1,1,2
+80,Montenegro,"Population, total",616969.0,620601.0,622303.0,MNE,Europe,0,0,0,0
+81,Myanmar,"Population, total",49929642.0,51413703.0,53045199.0,MMR,Asia,0,0,0,0
+82,Malta,"Population, total",409379.0,420028.0,455356.0,MLT,Europe,0,0,0,0
+83,Mali,"Population, total",14113578.0,15979492.0,17965448.0,MLI,Africa,0,0,0,0
+84,North Macedonia,"Population, total",2046898.0,2061044.0,2072490.0,MKD,Europe,0,0,0,0
+85,Marshall Islands,"Population, total",56166.0,56712.0,57723.0,MHL,Oceania,0,0,0,0
+86,Mexico,"Population, total",110815272.0,117274156.0,123333379.0,MEX,North America,0,3,2,5
+87,Maldives,"Population, total",343448.0,397231.0,475505.0,MDV,Asia,0,0,0,0
+88,Madagascar,"Population, total",19996476.0,22346641.0,24894370.0,MDG,Africa,0,0,0,0
+89,Moldova,"Population, total",2867964.0,2859458.0,2802170.0,,,0,0,0,0
+90,Monaco,"Population, total",34860.0,36459.0,38070.0,MCO,Europe,0,0,0,0
+91,Morocco,"Population, total",31536807.0,33241898.0,35126274.0,MAR,Africa,0,0,1,1
+92,Latvia,"Population, total",2177322.0,2034319.0,1959537.0,LVA,Europe,0,0,0,0
+93,Luxembourg,"Population, total",488650.0,530946.0,582014.0,LUX,Europe,0,0,0,0
+94,Lithuania,"Population, total",3198231.0,2987773.0,2868231.0,LTU,Europe,0,1,3,4
+95,Lesotho,"Population, total",1987130.0,2014988.0,2075041.0,LSO,Africa,0,0,0,0
+96,Sri Lanka,"Population, total",19983984.0,20425000.0,21203000.0,LKA,Asia,0,0,0,0
+97,Liechtenstein,"Population, total",35469.0,36615.0,37655.0,LIE,Europe,0,0,0,0
+98,St. Lucia,"Population, total",170011.0,176654.0,180028.0,,,0,0,0,0
+99,Libya,"Population, total",6058740.0,6285751.0,6492160.0,LBY,Africa,0,0,0,0
+100,Liberia,"Population, total",3607863.0,4135662.0,4586788.0,LBR,Africa,0,0,0,0
+101,Lebanon,"Population, total",4764745.0,5537620.0,6714281.0,LBN,Asia,0,0,0,0
+102,Lao PDR,"Population, total",6046630.0,6444527.0,6845848.0,,,0,0,0,0
+103,Kuwait,"Population, total",2656010.0,3348852.0,3956862.0,KWT,Asia,0,0,0,0
+104,"Korea, Rep.","Population, total",49054708.0,50199853.0,51217803.0,,,0,0,0,0
+105,St. Kitts and Nevis,"Population, total",48178.0,49881.0,51629.0,,,0,0,0,0
+106,Kiribati,"Population, total",98760.0,106359.0,112529.0,KIR,Oceania,0,0,0,0
+107,Cambodia,"Population, total",13883835.0,14780454.0,15766290.0,KHM,Asia,0,0,0,0
+108,Kyrgyz Republic,"Population, total",5318700.0,5607200.0,6079500.0,,,0,0,0,0
+109,Kenya,"Population, total",39791984.0,44343469.0,49051531.0,KEN,Africa,6,6,1,13
+110,Kazakhstan,"Population, total",15776938.0,16792090.0,17794055.0,KAZ,Asia,3,5,9,17
+111,Japan,"Population, total",128063000.0,127629000.0,126994511.0,JPN,Asia,12,8,21,41
+112,Jordan,"Population, total",6556473.0,8089963.0,9554286.0,JOR,Asia,1,0,0,1
+113,Jamaica,"Population, total",2781869.0,2842128.0,2906242.0,JAM,North America,6,3,2,11
+114,Italy,"Population, total",58826731.0,59539717.0,60627498.0,ITA,Europe,8,12,8,28
+115,Israel,"Population, total",7308800.0,7910500.0,8546000.0,ISR,Asia,0,0,2,2
+116,Iceland,"Population, total",317414.0,320716.0,335439.0,ISL,Europe,0,0,0,0
+117,Iraq,"Population, total",28385739.0,31890012.0,36610632.0,IRQ,Asia,0,0,0,0
+118,"Iran, Islamic Rep.","Population, total",72120608.0,75539881.0,79563991.0,,,0,0,0,0
+119,Ireland,"Population, total",4489544.0,4599533.0,4755335.0,IRL,Europe,0,2,0,2
+120,India,"Population, total",1200669762.0,1265780243.0,1324517250.0,IND,Asia,0,1,1,2
+121,Indonesia,"Population, total",235469755.0,248451714.0,261556386.0,IDN,Asia,1,2,0,3
+122,Hungary,"Population, total",10038188.0,9920362.0,9814023.0,HUN,Europe,8,3,4,15
+123,Haiti,"Population, total",9646570.0,10250922.0,10839976.0,HTI,North America,0,0,0,0
+124,Croatia,"Population, total",4309705.0,4267558.0,4174349.0,HRV,Europe,5,3,2,10
+125,Honduras,"Population, total",7980955.0,8640692.0,9270794.0,HND,North America,0,0,0,0
+126,"Hong Kong SAR, China","Population, total",6957800.0,7150100.0,7336600.0,,,0,0,0,0
+127,Guyana,"Population, total",746815.0,755388.0,771363.0,GUY,South America,0,0,0,0
+128,Guam,"Population, total",159037.0,159990.0,162948.0,GUM,Oceania,0,0,0,0
+129,Guatemala,"Population, total",13739299.0,14781942.0,15827690.0,GTM,North America,0,0,0,0
+130,Grenada,"Population, total",105457.0,107452.0,110263.0,GRD,North America,0,1,0,1
+131,Greece,"Population, total",11077841.0,11045011.0,10775971.0,GRC,Europe,3,1,2,6
+132,Equatorial Guinea,"Population, total",860839.0,1031191.0,1215181.0,GNQ,Africa,0,0,0,0
+133,Guinea-Bissau,"Population, total",1446936.0,1604981.0,1782434.0,GNB,Africa,0,0,0,0
+134,"Gambia, The","Population, total",1689288.0,1905020.0,2149134.0,,,0,0,0,0
+135,Guinea,"Population, total",9738796.0,10652032.0,11738434.0,GIN,Africa,0,0,0,0
+136,Ghana,"Population, total",23563832.0,25996454.0,28481947.0,GHA,Africa,0,0,0,0
+137,Georgia,"Population, total",3848449.0,3728874.0,3727505.0,GEO,Asia,2,1,4,7
+138,United Kingdom,"Population, total",61806995.0,63700215.0,65611593.0,,,0,0,0,0
+139,Gabon,"Population, total",1518538.0,1749677.0,2007882.0,GAB,Africa,0,0,0,0
+140,"Micronesia, Fed. Sts.","Population, total",103549.0,104506.0,110215.0,,,0,0,0,0
+141,France,"Population, total",64374979.0,65659814.0,66724104.0,FRA,Europe,10,18,14,42
+142,Fiji,"Population, total",845356.0,865065.0,872406.0,FJI,Oceania,1,0,0,1
+143,Finland,"Population, total",5313399.0,5413971.0,5495303.0,FIN,Europe,0,0,1,1
+144,Ethiopia,"Population, total",82916236.0,92726982.0,103603461.0,ETH,Africa,1,2,5,8
+145,Estonia,"Population, total",1337090.0,1322696.0,1315790.0,EST,Europe,0,0,1,1
+146,Spain,"Population, total",45954106.0,46773055.0,46484062.0,ESP,Europe,7,4,6,17
+147,Eritrea,"Population, total",3062782.0,,,ERI,Africa,0,0,0,0
+148,"Egypt, Arab Rep.","Population, total",79636081.0,86422240.0,94447071.0,,,0,0,0,0
+149,Ecuador,"Population, total",14535740.0,15474099.0,16491116.0,ECU,South America,0,0,0,0
+150,Algeria,"Population, total",34730604.0,37383899.0,40551398.0,DZA,Africa,0,2,0,2
+151,Dominican Republic,"Population, total",9458079.0,9930916.0,10397738.0,DOM,North America,0,0,1,1
+152,Denmark,"Population, total",5493621.0,5591572.0,5728010.0,DNK,Europe,2,6,7,15
+153,Dominica,"Population, total",70829.0,70954.0,71307.0,DMA,North America,0,0,0,0
+154,Djibouti,"Population, total",816361.0,868136.0,929117.0,DJI,Africa,0,0,0,0
+155,Germany,"Population, total",82110097.0,80425823.0,82348669.0,DEU,Europe,17,10,15,42
+156,Czech Republic,"Population, total",10384603.0,10510785.0,10566332.0,CZE,Europe,1,2,7,10
+157,Cyprus,"Population, total",1081568.0,1135046.0,1170189.0,CYP,Asia,0,0,0,0
+158,Cayman Islands,"Population, total",53835.0,58963.0,62564.0,CYM,North America,0,0,0,0
+159,Cuba,"Population, total",11236975.0,11257112.0,11335108.0,CUB,North America,5,2,4,11
+160,Costa Rica,"Population, total",4463123.0,4688003.0,4899336.0,CRI,North America,0,0,0,0
+161,Cabo Verde,"Population, total",480846.0,505241.0,531140.0,,,0,0,0,0
+162,Comoros,"Population, total",657227.0,723865.0,795597.0,COM,Africa,0,0,0,0
+163,Colombia,"Population, total",44254972.0,46075721.0,48175048.0,COL,South America,3,2,3,8
+164,"Congo, Rep.","Population, total",4011487.0,4510197.0,4980996.0,COG,Africa,0,0,0,0
+165,"Congo, Dem. Rep.","Population, total",60411195.0,69020749.0,78789130.0,COD,Africa,0,0,0,0
+166,Cameroon,"Population, total",19252674.0,21485267.0,23926549.0,CMR,Africa,0,0,0,0
+167,Cote d'Ivoire,"Population, total",19605568.0,21547188.0,23822726.0,,,0,0,0,0
+168,China,"Population, total",1324655000.0,1354190000.0,1387790000.0,CHN,Asia,26,18,26,70
+169,Chile,"Population, total",16708255.0,17400359.0,18209072.0,CHL,South America,0,0,0,0
+170,Switzerland,"Population, total",7647675.0,7996861.0,8373338.0,CHE,Europe,3,2,2,7
+171,Canada,"Population, total",33247118.0,34714222.0,36109487.0,CAN,North America,4,3,15,22
+172,Central African Republic,"Population, total",4273368.0,4436411.0,4537683.0,CAF,Africa,0,0,0,0
+173,Botswana,"Population, total",1915636.0,2039551.0,2159925.0,BWA,Africa,0,0,0,0
+174,Bhutan,"Population, total",671611.0,701582.0,736706.0,BTN,Asia,0,0,0,0
+175,Brunei Darussalam,"Population, total",379418.0,398997.0,419791.0,BRN,Asia,0,0,0,0
+176,Barbados,"Population, total",279946.0,283698.0,285798.0,BRB,North America,0,0,0,0
+177,Brazil,"Population, total",192030362.0,199287292.0,206163056.0,BRA,South America,7,6,6,19
+178,Bolivia,"Population, total",9721457.0,10377677.0,11031822.0,BOL,South America,0,0,0,0
+179,Bermuda,"Population, total",65273.0,64798.0,64554.0,BMU,North America,0,0,0,0
+180,Belize,"Population, total",306822.0,338001.0,368399.0,BLZ,North America,0,0,0,0
+181,Belarus,"Population, total",9527985.0,9446836.0,9469379.0,BLR,Europe,1,4,4,9
+182,Bosnia and Herzegovina,"Population, total",3754261.0,3604972.0,3386263.0,BIH,Europe,0,0,0,0
+183,"Bahamas, The","Population, total",343680.0,363581.0,377923.0,,,0,0,0,0
+184,Bahrain,"Population, total",1114645.0,1299942.0,1425793.0,BHR,Asia,1,1,0,2
+185,Bulgaria,"Population, total",7492561.0,7305888.0,7127822.0,BGR,Europe,0,1,2,3
+186,Bangladesh,"Population, total",144304164.0,151005733.0,157977151.0,BGD,Asia,0,0,0,0
+187,Burkina Faso,"Population, total",14689725.0,16571252.0,18646350.0,BFA,Africa,0,0,0,0
+188,Benin,"Population, total",8696915.0,9729254.0,10872072.0,BEN,Africa,0,0,0,0
+189,Belgium,"Population, total",10709973.0,11106932.0,11331422.0,BEL,Europe,2,2,2,6
+190,Burundi,"Population, total",8126104.0,9245992.0,10488002.0,BDI,Africa,0,1,0,1
+191,Azerbaijan,"Population, total",8763400.0,9295784.0,9757812.0,AZE,Asia,1,7,10,18
+192,Austria,"Population, total",8321496.0,8429991.0,8736668.0,AUT,Europe,0,0,1,1
+193,Australia,"Population, total",21249200.0,22733465.0,24190907.0,AUS,Oceania,8,11,10,29
+194,Antigua and Barbuda,"Population, total",85394.0,90407.0,94520.0,ATG,North America,0,0,0,0
+195,American Samoa,"Population, total",57490.0,55669.0,55739.0,ASM,Oceania,0,0,0,0
+196,Armenia,"Population, total",2907615.0,2884239.0,2936147.0,ARM,Asia,1,3,0,4
+197,Argentina,"Population, total",40080159.0,41733271.0,43590368.0,ARG,South America,3,1,0,4
+198,United Arab Emirates,"Population, total",7089486.0,9141598.0,9360975.0,ARE,Asia,0,0,1,1
+199,Andorra,"Population, total",83860.0,82427.0,77295.0,AND,Europe,0,0,0,0
+200,Albania,"Population, total",2947314.0,2900401.0,2876101.0,ALB,Europe,0,0,0,0
+201,Angola,"Population, total",21695636.0,25107925.0,28842482.0,AGO,Africa,0,0,0,0
+202,Afghanistan,"Population, total",27722281.0,31161378.0,35383028.0,AFG,Asia,0,0,0,0
+203,Aruba,"Population, total",101362.0,102565.0,104865.0,ABW,North America,0,0,0,0
+204,Zimbabwe,"GDP, PPP (constant 2017 international $)",26985601091.8306,48196522444.6521,51606629078.5816,ZWE,Africa,0,0,0,0
+205,Zambia,"GDP, PPP (constant 2017 international $)",35300548789.7578,48303033348.0076,56746599390.2726,ZMB,Africa,0,0,0,0
+206,South Africa,"GDP, PPP (constant 2017 international $)",687507327004.33,736854339454.923,781125531699.056,ZAF,Africa,2,6,2,10
+207,"Yemen, Rep.","GDP, PPP (constant 2017 international $)",,,,,,0,0,0,0
+208,Kosovo,"GDP, PPP (constant 2017 international $)",12288387592.4733,14647271671.1688,17830752781.5528,XKX,Europe,1,0,0,1
+209,Samoa,"GDP, PPP (constant 2017 international $)",1168527689.8764,1115879881.3438,1254749877.5905,WSM,Oceania,0,0,0,0
+210,Vanuatu,"GDP, PPP (constant 2017 international $)",699341273.769244,760163346.262136,827593346.944437,VUT,Oceania,0,0,0,0
+211,Vietnam,"GDP, PPP (constant 2017 international $)",399137123683.052,500600271140.23,633737753821.404,VNM,Asia,1,1,0,2
+212,Virgin Islands (U.S.),"GDP, PPP (constant 2017 international $)",,,,VIR,North America,0,0,0,0
+213,British Virgin Islands,"GDP, PPP (constant 2017 international $)",,,,VGB,North America,0,0,0,0
+214,"Venezuela, RB","GDP, PPP (constant 2017 international $)",,,,,,0,0,0,0
+215,St. Vincent and the Grenadines,"GDP, PPP (constant 2017 international $)",1309782866.89864,1251118487.54203,1331521060.07436,,,0,0,0,0
+216,Uzbekistan,"GDP, PPP (constant 2017 international $)",121707670290.97,162950881257.219,212232800909.881,UZB,Asia,4,2,7,13
+217,United States,"GDP, PPP (constant 2017 international $)",16807777526679.0,17445764227858.7,19097495832657.7,USA,North America,46,37,38,121
+218,Uruguay,"GDP, PPP (constant 2017 international $)",57674027693.407,70570248494.2376,77810210426.862,URY,South America,0,0,0,0
+219,Ukraine,"GDP, PPP (constant 2017 international $)",634628644743.133,592033504802.055,492283780388.951,UKR,Europe,2,5,4,11
+220,Uganda,"GDP, PPP (constant 2017 international $)",53849696407.9992,69010867754.5129,82813146623.4715,UGA,Africa,0,0,0,0
+221,Tanzania,"GDP, PPP (constant 2017 international $)",77210508276.6666,97247878561.0909,125742068577.319,TZA,Africa,0,0,0,0
+222,Tuvalu,"GDP, PPP (constant 2017 international $)",37139804.9703798,35695731.4088098,42544756.5251391,TUV,Oceania,0,0,0,0
+223,Turkey,"GDP, PPP (constant 2017 international $)",1403658930084.4,1687911119825.11,2106258451913.1,TUR,Europe,1,3,4,8
+224,Tunisia,"GDP, PPP (constant 2017 international $)",107583521371.582,117256271073.325,125629464081.914,TUN,Africa,0,0,3,3
+225,Trinidad and Tobago,"GDP, PPP (constant 2017 international $)",38827392114.6828,38728621938.3116,37582478505.365,TTO,North America,0,0,1,1
+226,Tonga,"GDP, PPP (constant 2017 international $)",562210240.863443,578618564.54676,638447619.124322,TON,Oceania,0,0,0,0
+227,Timor-Leste,"GDP, PPP (constant 2017 international $)",2661988619.16798,3561340024.68616,4075606100.00449,TLS,Asia,0,0,0,0
+228,Turkmenistan,"GDP, PPP (constant 2017 international $)",37834870666.871,55860877401.8627,76796067930.5985,TKM,Asia,0,0,0,0
+229,Tajikistan,"GDP, PPP (constant 2017 international $)",16258541934.0985,20771100055.3391,26971913999.0354,TJK,Asia,1,0,0,1
+230,Thailand,"GDP, PPP (constant 2017 international $)",906187366438.26,1046338906857.69,1157483380202.26,THA,Asia,2,2,2,6
+231,Togo,"GDP, PPP (constant 2017 international $)",9322374067.08218,11833375211.1376,14845731642.3475,TGO,Africa,0,0,0,0
+232,Chad,"GDP, PPP (constant 2017 international $)",17499987131.5205,22567573043.8726,24566297101.8342,TCD,Africa,0,0,0,0
+233,Syrian Arab Republic,"GDP, PPP (constant 2017 international $)",,,,,,0,0,0,0
+234,Seychelles,"GDP, PPP (constant 2017 international $)",1795739998.41232,2055652656.7777,2499036177.4233,SYC,Africa,0,0,0,0
+235,Eswatini,"GDP, PPP (constant 2017 international $)",7534651047.25624,8559668134.83464,9269570961.68438,SWZ,Africa,0,0,0,0
+236,Sweden,"GDP, PPP (constant 2017 international $)",442206001645.583,459793784274.097,509395932462.041,SWE,Europe,2,6,3,11
+237,Slovenia,"GDP, PPP (constant 2017 international $)",72919918591.5486,67091135563.7047,71972995813.7254,SVN,Europe,1,2,1,4
+238,Slovak Republic,"GDP, PPP (constant 2017 international $)",136959240788.06,143185132956.254,158779817149.09,,,0,0,0,0
+239,Suriname,"GDP, PPP (constant 2017 international $)",9201666793.47853,10835935420.0579,10269913345.4989,SUR,South America,0,0,0,0
+240,Sao Tome and Principe,"GDP, PPP (constant 2017 international $)",554267616.533403,652093325.561949,788259685.008913,STP,Africa,0,0,0,0
+241,South Sudan,"GDP, PPP (constant 2017 international $)",,,,SSD,Africa,0,0,0,0
+242,Serbia,"GDP, PPP (constant 2017 international $)",107987846630.705,107224463358.241,114223566321.453,SRB,Europe,2,4,2,8
+243,Somalia,"GDP, PPP (constant 2017 international $)",,,12461863365.2138,SOM,Africa,0,0,0,0
+244,San Marino,"GDP, PPP (constant 2017 international $)",2653172228.02987,1916829274.87621,1977005285.03501,SMR,Europe,0,0,0,0
+245,El Salvador,"GDP, PPP (constant 2017 international $)",45331519499.6443,48374994140.1832,52818867865.5056,SLV,North America,0,0,0,0
+246,Sierra Leone,"GDP, PPP (constant 2017 international $)",8299077544.11287,11047338885.7389,11741786062.292,SLE,Africa,0,0,0,0
+247,Solomon Islands,"GDP, PPP (constant 2017 international $)",1156177507.44352,1407268996.13801,1608399222.52669,SLB,Oceania,0,0,0,0
+248,Singapore,"GDP, PPP (constant 2017 international $)",346645100377.235,441527302937.109,511987012822.097,SGP,Asia,1,0,0,1
+249,Senegal,"GDP, PPP (constant 2017 international $)",33380452577.4236,37373747012.1851,45995086773.7203,SEN,Africa,0,0,0,0
+250,Sudan,"GDP, PPP (constant 2017 international $)",204195044063.221,165639878987.62,186372835393.388,SDN,Africa,0,0,0,0
+251,Saudi Arabia,"GDP, PPP (constant 2017 international $)",1173789236915.57,1400148607373.54,1577589792196.98,SAU,Asia,0,0,0,0
+252,Rwanda,"GDP, PPP (constant 2017 international $)",13267957873.9327,17746719989.307,22760357451.3204,RWA,Africa,0,0,0,0
+253,Russian Federation,"GDP, PPP (constant 2017 international $)",3552550981878.81,3713692139974.43,3738837933428.46,RUS,Europe,19,18,19,56
+254,Romania,"GDP, PPP (constant 2017 international $)",452743215088.785,427459464317.292,495413766700.389,ROU,Europe,1,1,3,5
+255,Qatar,"GDP, PPP (constant 2017 international $)",132971423351.579,211397734624.145,253763429745.086,QAT,Asia,0,1,0,1
+256,West Bank and Gaza,"GDP, PPP (constant 2017 international $)",17835505431.0491,23823007352.7557,28119389833.301,,,0,0,0,0
+257,Paraguay,"GDP, PPP (constant 2017 international $)",58731219632.8468,67386123645.4735,82492091751.5538,PRY,South America,0,0,0,0
+258,Portugal,"GDP, PPP (constant 2017 international $)",341112661504.386,317093012692.047,328840222198.501,PRT,Europe,0,0,1,1
+259,"Korea, Dem. People's Rep.","GDP, PPP (constant 2017 international $)",,,,,,0,0,0,0
+260,Puerto Rico,"GDP, PPP (constant 2017 international $)",125625835029.188,122260084379.649,117665072947.615,PRI,North America,1,0,0,1
+261,Poland,"GDP, PPP (constant 2017 international $)",855729163569.686,968981865798.016,1089084369107.39,POL,Europe,2,3,6,11
+262,Papua New Guinea,"GDP, PPP (constant 2017 international $)",21173957711.5667,26352807408.237,34927738671.6836,PNG,Oceania,0,0,0,0
+263,Palau,"GDP, PPP (constant 2017 international $)",292054918.750382,296548046.195792,327221190.277556,PLW,Oceania,0,0,0,0
+264,Philippines,"GDP, PPP (constant 2017 international $)",510731333783.642,617423226036.774,798735245434.505,PHL,Asia,0,1,0,1
+265,Peru,"GDP, PPP (constant 2017 international $)",266807239125.777,329770443729.172,383596875076.523,PER,South America,0,0,0,0
+266,Panama,"GDP, PPP (constant 2017 international $)",72563640359.8947,95006105379.6827,118416945554.981,PAN,North America,0,0,0,0
+267,Pakistan,"GDP, PPP (constant 2017 international $)",670907048188.507,745515104687.75,900372723927.891,PAK,Asia,0,0,0,0
+268,Oman,"GDP, PPP (constant 2017 international $)",95737860147.7181,115673264404.365,135530601706.427,OMN,Asia,0,0,0,0
+269,New Zealand,"GDP, PPP (constant 2017 international $)",161587638611.342,171286052568.556,196446452455.24,NZL,Oceania,4,9,5,18
+270,Nauru,"GDP, PPP (constant 2017 international $)",55231023.5679304,82009701.6614725,145609062.133635,NRU,Oceania,0,0,0,0
+271,Nepal,"GDP, PPP (constant 2017 international $)",66650868165.8738,78879048236.1234,90400474172.9487,NPL,Asia,0,0,0,0
+272,Norway,"GDP, PPP (constant 2017 international $)",303116959291.266,311104911603.418,330319612494.106,NOR,Europe,0,0,4,4
+273,Netherlands,"GDP, PPP (constant 2017 international $)",885566439963.833,868913267500.893,917045394441.436,NLD,Europe,8,7,4,19
+274,Nicaragua,"GDP, PPP (constant 2017 international $)",26600629726.3538,30410928971.997,36637445219.4177,NIC,North America,0,0,0,0
+275,Nigeria,"GDP, PPP (constant 2017 international $)",669995486886.938,858113305207.652,982780034192.258,NGA,Africa,0,0,1,1
+276,Niger,"GDP, PPP (constant 2017 international $)",15409187205.714,19303608548.3332,23931559623.362,NER,Africa,0,1,0,1
+277,Namibia,"GDP, PPP (constant 2017 international $)",17992817701.456,21128106807.62,24691737303.1004,NAM,Africa,0,0,0,0
+278,Malaysia,"GDP, PPP (constant 2017 international $)",547539099001.908,643343464539.826,783740339600.78,MYS,Asia,0,4,1,5
+279,Malawi,"GDP, PPP (constant 2017 international $)",17262611522.7463,21351032619.6307,25012607362.7099,MWI,Africa,0,0,0,0
+280,Mauritius,"GDP, PPP (constant 2017 international $)",19477466102.5468,22624703115.9746,26086842380.0703,MUS,Africa,0,0,0,0
+281,Mauritania,"GDP, PPP (constant 2017 international $)",15891303909.2665,17764921545.0567,20586871382.7043,MRT,Africa,0,0,0,0
+282,Mozambique,"GDP, PPP (constant 2017 international $)",21347292691.9843,27849388139.4062,35449309348.5047,MOZ,Africa,0,0,0,0
+283,Mongolia,"GDP, PPP (constant 2017 international $)",19349268103.5318,26769453830.2182,33503698720.8571,MNG,Asia,0,1,1,2
+284,Montenegro,"GDP, PPP (constant 2017 international $)",10729724989.1887,10427585125.9192,11697990093.9179,MNE,Europe,0,0,0,0
+285,Myanmar,"GDP, PPP (constant 2017 international $)",115028058777.103,160051126576.886,213254587482.142,MMR,Asia,0,0,0,0
+286,Malta,"GDP, PPP (constant 2017 international $)",13056471285.0634,14251272786.608,18458637842.807,MLT,Europe,0,0,0,0
+287,Mali,"GDP, PPP (constant 2017 international $)",28400488545.353,32083734772.5945,39498122203.1308,MLI,Africa,0,0,0,0
+288,North Macedonia,"GDP, PPP (constant 2017 international $)",26967557279.0998,28293575660.7112,32234383514.2094,MKD,Europe,0,0,0,0
+289,Marshall Islands,"GDP, PPP (constant 2017 international $)",184097276.463265,196764684.246353,208702702.95779,MHL,Oceania,0,0,0,0
+290,Mexico,"GDP, PPP (constant 2017 international $)",2038647605904.25,2180700554407.38,2409843112983.73,MEX,North America,0,3,2,5
+291,Maldives,"GDP, PPP (constant 2017 international $)",5992584544.75941,6637124988.72736,8361084209.65743,MDV,Asia,0,0,0,0
+292,Madagascar,"GDP, PPP (constant 2017 international $)",34007928308.722,34380679957.2211,38981290520.7963,MDG,Africa,0,0,0,0
+293,Moldova,"GDP, PPP (constant 2017 international $)",24302403984.7376,25737006167.9988,30662887782.4774,,,0,0,0,0
+294,Monaco,"GDP, PPP (constant 2017 international $)",,,,MCO,Europe,0,0,0,0
+295,Morocco,"GDP, PPP (constant 2017 international $)",190507056104.072,223515583617.203,253430476966.23,MAR,Africa,0,0,1,1
+296,Latvia,"GDP, PPP (constant 2017 international $)",54223144195.8807,48763511484.5764,53905242557.0713,LVA,Europe,0,0,0,0
+297,Luxembourg,"GDP, PPP (constant 2017 international $)",57736278119.6883,59538763540.5786,67678741186.3037,LUX,Europe,0,0,0,0
+298,Lithuania,"GDP, PPP (constant 2017 international $)",85664233657.0446,81658512980.3964,91570579072.6829,LTU,Europe,0,1,3,4
+299,Lesotho,"GDP, PPP (constant 2017 international $)",4505323282.71637,5209480911.38836,5761851387.80813,LSO,Africa,0,0,0,0
+300,Sri Lanka,"GDP, PPP (constant 2017 international $)",165350988064.641,218800715813.452,260531291492.816,LKA,Asia,0,0,0,0
+301,Liechtenstein,"GDP, PPP (constant 2017 international $)",,,,LIE,Europe,0,0,0,0
+302,St. Lucia,"GDP, PPP (constant 2017 international $)",2492911399.75272,2591012660.90697,2609973113.02056,,,0,0,0,0
+303,Libya,"GDP, PPP (constant 2017 international $)",134075031340.204,118214760087.593,68767756473.2848,LBY,Africa,0,0,0,0
+304,Liberia,"GDP, PPP (constant 2017 international $)",5104570383.04993,6663980095.31372,7178953380.43013,LBR,Africa,0,0,0,0
+305,Lebanon,"GDP, PPP (constant 2017 international $)",81145315992.4113,99894525694.0716,108554701985.013,LBN,Asia,0,0,0,0
+306,Lao PDR,"GDP, PPP (constant 2017 international $)",25979247073.3644,35374268307.0201,47209839789.6086,,,0,0,0,0
+307,Kuwait,"GDP, PPP (constant 2017 international $)",193949727672.545,205676371273.265,216475883430.819,KWT,Asia,0,0,0,0
+308,"Korea, Rep.","GDP, PPP (constant 2017 international $)",1583246844825.55,1809664213833.72,2039219357482.86,,,0,0,0,0
+309,St. Kitts and Nevis,"GDP, PPP (constant 2017 international $)",1142125706.18246,1084420230.82824,1391559698.58468,,,0,0,0,0
+310,Kiribati,"GDP, PPP (constant 2017 international $)",198200815.100117,210581247.950085,252961954.206163,KIR,Oceania,0,0,0,0
+311,Cambodia,"GDP, PPP (constant 2017 international $)",36662093824.9519,44675351848.305,58778299696.0593,KHM,Asia,0,0,0,0
+312,Kyrgyz Republic,"GDP, PPP (constant 2017 international $)",22031180060.5334,23882849032.7395,29864829313.3557,,,0,0,0,0
+313,Kenya,"GDP, PPP (constant 2017 international $)",138970848439.511,170531095002.544,203350023339.972,KEN,Africa,6,6,1,13
+314,Kazakhstan,"GDP, PPP (constant 2017 international $)",311913482304.495,381223747124.771,430809427136.853,KAZ,Asia,3,5,9,17
+315,Japan,"GDP, PPP (constant 2017 international $)",4966436652531.57,4943823715180.79,5175547373033.96,JPN,Asia,12,8,21,41
+316,Jordan,"GDP, PPP (constant 2017 international $)",76467463678.3376,86467865323.1013,95892008153.3297,JOR,Asia,1,0,0,1
+317,Jamaica,"GDP, PPP (constant 2017 international $)",28133483825.258,26812197175.2479,27763609394.364,JAM,North America,6,3,2,11
+318,Italy,"GDP, PPP (constant 2017 international $)",2625060632005.45,2471000141707.7,2475889856374.81,ITA,Europe,8,12,8,28
+319,Israel,"GDP, PPP (constant 2017 international $)",241520191513.143,280168508678.34,326580991869.529,ISR,Asia,0,0,2,2
+320,Iceland,"GDP, PPP (constant 2017 international $)",16822763466.1092,15535564849.5489,18337029182.1567,ISL,Europe,0,0,0,0
+321,Iraq,"GDP, PPP (constant 2017 international $)",232452559717.129,313313267727.502,402621288208.154,IRQ,Asia,0,0,0,0
+322,"Iran, Islamic Rep.","GDP, PPP (constant 2017 international $)",952936489901.362,967469075268.072,1130223330592.33,,,0,0,0,0
+323,Ireland,"GDP, PPP (constant 2017 international $)",250123723313.347,243985235241.672,343097610315.363,IRL,Europe,0,2,0,2
+324,India,"GDP, PPP (constant 2017 international $)",4466602754869.29,5801290084908.24,7750273455775.05,IND,Asia,0,1,1,2
+325,Indonesia,"GDP, PPP (constant 2017 international $)",1803131952430.77,2255957989050.89,2754479325709.95,IDN,Asia,1,2,0,3
+326,Hungary,"GDP, PPP (constant 2017 international $)",259342104858.833,246278748723.087,276934840938.076,HUN,Europe,8,3,4,15
+327,Haiti,"GDP, PPP (constant 2017 international $)",28889235768.4646,30485924857.9255,33782654843.3156,HTI,North America,0,0,0,0
+328,Croatia,"GDP, PPP (constant 2017 international $)",114940788543.587,102755678461.021,108300394690.057,HRV,Europe,5,3,2,10
+329,Honduras,"GDP, PPP (constant 2017 international $)",39997412334.6285,43769053767.6593,50021631004.0765,HND,North America,0,0,0,0
+330,"Hong Kong SAR, China","GDP, PPP (constant 2017 international $)",346420609841.253,384569222509.75,426229309122.212,,,0,0,0,0
+331,Guyana,"GDP, PPP (constant 2017 international $)",6805172581.80237,8143790063.68535,8971766802.20281,GUY,South America,0,0,0,0
+332,Guam,"GDP, PPP (constant 2017 international $)",,,,GUM,Oceania,0,0,0,0
+333,Guatemala,"GDP, PPP (constant 2017 international $)",101193790131.394,112206107054.982,129882783658.342,GTM,North America,0,0,0,0
+334,Grenada,"GDP, PPP (constant 2017 international $)",1533540027.42044,1419115795.85237,1721679317.38406,GRD,North America,0,1,0,1
+335,Greece,"GDP, PPP (constant 2017 international $)",414248492128.374,312823130975.425,304312550410.314,GRC,Europe,3,1,2,6
+336,Equatorial Guinea,"GDP, PPP (constant 2017 international $)",35509166777.5868,37815173745.6252,30169337714.0742,GNQ,Africa,0,0,0,0
+337,Guinea-Bissau,"GDP, PPP (constant 2017 international $)",2460204322.38494,2826185354.72066,3322925818.84943,GNB,Africa,0,0,0,0
+338,"Gambia, The","GDP, PPP (constant 2017 international $)",3725073280.35841,4068635488.07832,4377521956.89627,,,0,0,0,0
+339,Guinea,"GDP, PPP (constant 2017 international $)",18398416052.2761,21328794681.6801,26452299047.4842,GIN,Africa,0,0,0,0
+340,Ghana,"GDP, PPP (constant 2017 international $)",83858706162.0519,118246933931.97,137782499689.919,GHA,Africa,0,0,0,0
+341,Georgia,"GDP, PPP (constant 2017 international $)",36016150958.6461,42120443741.462,48322420424.5406,GEO,Asia,2,1,4,7
+342,United Kingdom,"GDP, PPP (constant 2017 international $)",2705149755456.56,2723473417715.04,2999288541091.92,,,0,0,0,0
+343,Gabon,"GDP, PPP (constant 2017 international $)",21834287970.0189,26389777283.4625,30840546266.5375,GAB,Africa,0,0,0,0
+344,"Micronesia, Fed. Sts.","GDP, PPP (constant 2017 international $)",364331237.633269,381389388.277182,378851921.21755,,,0,0,0,0
+345,France,"GDP, PPP (constant 2017 international $)",2767880101784.03,2809624996095.14,2916186811083.79,FRA,Europe,10,18,14,42
+346,Fiji,"GDP, PPP (constant 2017 international $)",8932796884.26666,9446056360.64507,11184905324.1232,FJI,Oceania,1,0,0,1
+347,Finland,"GDP, PPP (constant 2017 international $)",259389456552.985,248784129304.398,253920299689.414,FIN,Europe,0,0,1,1
+348,Ethiopia,"GDP, PPP (constant 2017 international $)",90105030164.1105,133283594734.983,196317925147.112,ETH,Africa,1,2,5,8
+349,Estonia,"GDP, PPP (constant 2017 international $)",39606965135.4168,38354642990.0875,42117035737.1515,EST,Europe,0,0,1,1
+350,Spain,"GDP, PPP (constant 2017 international $)",1803257279933.43,1673046921517.68,1788594176239.12,ESP,Europe,7,4,6,17
+351,Eritrea,"GDP, PPP (constant 2017 international $)",,,,ERI,Africa,0,0,0,0
+352,"Egypt, Arab Rep.","GDP, PPP (constant 2017 international $)",777527231173.721,890244811237.087,1019632514733.42,,,0,0,0,0
+353,Ecuador,"GDP, PPP (constant 2017 international $)",149098894146.809,176890238040.202,190499039001.124,ECU,South America,0,0,0,0
+354,Algeria,"GDP, PPP (constant 2017 international $)",374982470602.041,419952666345.218,479566971410.704,DZA,Africa,0,2,0,2
+355,Dominican Republic,"GDP, PPP (constant 2017 international $)",113315726128.944,131283671940.134,168096190995.086,DOM,North America,0,0,1,1
+356,Denmark,"GDP, PPP (constant 2017 international $)",291065948985.469,286379681639.879,310372270416.481,DNK,Europe,2,6,7,15
+357,Dominica,"GDP, PPP (constant 2017 international $)",855107711.678439,839899243.272102,866718860.859858,DMA,North America,0,0,0,0
+358,Djibouti,"GDP, PPP (constant 2017 international $)",,,4375698707.43795,DJI,Africa,0,0,0,0
+359,Germany,"GDP, PPP (constant 2017 international $)",3911989640347.39,4011032634316.5,4272221986254.43,DEU,Europe,17,10,15,42
+360,Czech Republic,"GDP, PPP (constant 2017 international $)",359104175715.301,354088374418.526,391112348862.469,CZE,Europe,1,2,7,10
+361,Cyprus,"GDP, PPP (constant 2017 international $)",31778145923.0625,30793299986.6212,31089718667.4255,CYP,Asia,0,0,0,0
+362,Cayman Islands,"GDP, PPP (constant 2017 international $)",4198482248.45824,3881834283.21493,4284664748.70455,CYM,North America,0,0,0,0
+363,Cuba,"GDP, PPP (constant 2017 international $)",,,,CUB,North America,5,2,4,11
+364,Costa Rica,"GDP, PPP (constant 2017 international $)",73763980087.9198,84358439807.4615,96696554844.869,CRI,North America,0,0,0,0
+365,Cabo Verde,"GDP, PPP (constant 2017 international $)",3049142810.48216,3210153634.25249,3443232723.91304,,,0,0,0,0
+366,Comoros,"GDP, PPP (constant 2017 international $)",1853155855.61207,2132652673.14951,2377220186.60695,COM,Africa,0,0,0,0
+367,Colombia,"GDP, PPP (constant 2017 international $)",504205845899.389,592193995936.217,683821473440.463,COL,South America,3,2,3,8
+368,"Congo, Rep.","GDP, PPP (constant 2017 international $)",18001056071.995,24824958475.4018,22634023588.1404,COG,Africa,0,0,0,0
+369,"Congo, Dem. Rep.","GDP, PPP (constant 2017 international $)",50734263154.0536,63967589236.2596,83167671599.0109,COD,Africa,0,0,0,0
+370,Cameroon,"GDP, PPP (constant 2017 international $)",62120590885.0771,70921695833.5555,86958198354.4153,CMR,Africa,0,0,0,0
+371,Cote d'Ivoire,"GDP, PPP (constant 2017 international $)",70080446900.6494,79005727588.8111,109958776919.581,,,0,0,0,0
+372,China,"GDP, PPP (constant 2017 international $)",9819501089971.55,14043934216102.1,18595188781703.6,CHN,Asia,26,18,26,70
+373,Chile,"GDP, PPP (constant 2017 international $)",348206787911.37,405436060916.496,446693259327.661,CHL,South America,0,0,0,0
+374,Switzerland,"GDP, PPP (constant 2017 international $)",509326431830.756,531313740128.351,574940548707.09,CHE,Europe,3,2,2,7
+375,Canada,"GDP, PPP (constant 2017 international $)",1524434561362.8,1601246043121.22,1713669061092.82,CAN,North America,4,3,15,22
+376,Central African Republic,"GDP, PPP (constant 2017 international $)",4638485655.47693,5768615578.41872,4013558816.92666,CAF,Africa,0,0,0,0
+377,Botswana,"GDP, PPP (constant 2017 international $)",26016576245.0121,28893389524.891,33812938657.2719,BWA,Africa,0,0,0,0
+378,Bhutan,"GDP, PPP (constant 2017 international $)",4698442334.64709,6373174013.78458,7938147353.08061,BTN,Asia,0,0,0,0
+379,Brunei Darussalam,"GDP, PPP (constant 2017 international $)",26125267156.9915,27566838984.6099,25551541319.6116,BRN,Asia,0,0,0,0
+380,Barbados,"GDP, PPP (constant 2017 international $)",4744152748.93305,4350749419.01538,4497911405.39199,BRB,North America,0,0,0,0
+381,Brazil,"GDP, PPP (constant 2017 international $)",2710503715141.08,3084726708281.22,2979293832697.14,BRA,South America,7,6,6,19
+382,Bolivia,"GDP, PPP (constant 2017 international $)",61743172462.3164,73488337955.1974,90489007925.7654,BOL,South America,0,0,0,0
+383,Bermuda,"GDP, PPP (constant 2017 international $)",6256795678.60925,5247495465.80897,5044853303.55627,BMU,North America,0,0,0,0
+384,Belize,"GDP, PPP (constant 2017 international $)",2278727210.4909,2455455366.74575,2655034057.13707,BLZ,North America,0,0,0,0
+385,Belarus,"GDP, PPP (constant 2017 international $)",151903689949.072,175819355671.141,169342102526.663,BLR,Europe,1,4,4,9
+386,Bosnia and Herzegovina,"GDP, PPP (constant 2017 international $)",41428413672.3539,40584178899.8592,44679454488.3148,BIH,Europe,0,0,0,0
+387,"Bahamas, The","GDP, PPP (constant 2017 international $)",13332188252.2246,13454452165.7274,13492316077.3511,,,0,0,0,0
+388,Bahrain,"GDP, PPP (constant 2017 international $)",51729372637.1175,58544160034.475,68349250016.7145,BHR,Asia,1,1,0,2
+389,Bulgaria,"GDP, PPP (constant 2017 international $)",136743248089.978,138165876372.402,147836650515.658,BGR,Europe,0,1,2,3
+390,Bangladesh,"GDP, PPP (constant 2017 international $)",383711876467.608,482581258491.401,619293260761.415,BGD,Asia,0,0,0,0
+391,Burkina Faso,"GDP, PPP (constant 2017 international $)",23987565704.7263,30400679457.6706,36946433803.5338,BFA,Africa,0,0,0,0
+392,Benin,"GDP, PPP (constant 2017 international $)",23813843817.0103,26851264681.8907,32196993426.2032,BEN,Africa,0,0,0,0
+393,Belgium,"GDP, PPP (constant 2017 international $)",518614543398.304,535475461831.324,564643935471.557,BEL,Europe,2,2,2,6
+394,Burundi,"GDP, PPP (constant 2017 international $)",6726726438.06685,7976662580.3333,8333811187.34308,BDI,Africa,0,1,0,1
+395,Azerbaijan,"GDP, PPP (constant 2017 international $)",111053101954.314,130396319714.322,138875059829.769,AZE,Asia,1,7,10,18
+396,Austria,"GDP, PPP (constant 2017 international $)",442421107373.803,449296979861.322,466064032926.316,AUT,Europe,0,0,1,1
+397,Australia,"GDP, PPP (constant 2017 international $)",950766977829.803,1053717016448.23,1163970433130.57,AUS,Oceania,8,11,10,29
+398,Antigua and Barbuda,"GDP, PPP (constant 2017 international $)",1975328104.58546,1624282782.9669,1835543677.67486,ATG,North America,0,0,0,0
+399,American Samoa,"GDP, PPP (constant 2017 international $)",,,,ASM,Oceania,0,0,0,0
+400,Armenia,"GDP, PPP (constant 2017 international $)",30435546698.9769,29989321069.253,33187468758.0387,ARM,Asia,1,3,0,4
+401,Argentina,"GDP, PPP (constant 2017 international $)",925990210832.673,1006559234253.78,1010840035079.44,ARG,South America,3,1,0,4
+402,United Arab Emirates,"GDP, PPP (constant 2017 international $)",487745423101.489,524630081825.248,622606812822.467,ARE,Asia,0,0,1,1
+403,Andorra,"GDP, PPP (constant 2017 international $)",,,,AND,Europe,0,0,0,0
+404,Albania,"GDP, PPP (constant 2017 international $)",29214270738.4274,32565621885.8793,35352647953.8237,ALB,Europe,0,0,0,0
+405,Angola,"GDP, PPP (constant 2017 international $)",170622608225.526,201784670079.693,218308693423.998,AGO,Africa,0,0,0,0
+406,Afghanistan,"GDP, PPP (constant 2017 international $)",41143038133.026,64675178730.6937,72785293847.6716,AFG,Asia,0,0,0,0
+407,Aruba,"GDP, PPP (constant 2017 international $)",4051264664.08933,3562338436.47966,4017882134.53394,ABW,North America,0,0,0,0
