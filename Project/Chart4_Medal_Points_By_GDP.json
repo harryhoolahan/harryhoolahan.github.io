@@ -1,0 +1,39 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Figure 2: Medal points relative to GDP",
+        "subtitle": [
+            "2016 GDP, PPP (constant 2017 international $). Source World Bank. Rio",
+            "2016 Medals. Source scraped from Olympic Games Musuem."
+        ],
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "subtitleColor": "#dbd8d8ec",
+        "anchor": "start",
+        "color": "white",
+        "fontWeight": "bold"
+    },
+    "config": { "background": "#122b39" },
+    "height": 300,
+    "width": 250,
+    "data": {
+        "url": "https://raw.githubusercontent.com/harryhoolahan/harryhoolahan.github.io/main/Project/Rio_data_1.csv"
+    },
+    "transform": [{ "filter": { "field": "Medal Points/GDP", "range": [0.1, 2] } }],
+    "mark": { "type": "bar", "color": "#f4c245" },
+    "encoding": {
+        "x": {
+            "title": "Medal Points by GDP",
+            "field": "Medal Points/GDP",
+            "type": "quantitative",
+            "axis": { "labelAngle": 0, "titleColor": "white", "labelColor": "white", "gridColor": "white", "gridOpacity": [0.4] }
+        },
+        "y": {
+            "title": null,
+            "field": "Countries",
+            "type": "ordinal",
+            "axis": { "labelColor": "white", "titleColor": "white", "grid": false },
+            "sort": "-x"
+        }
+    }
+}
