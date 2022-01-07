@@ -4,7 +4,7 @@
     @media only screen and (min-width: 840px) {
         body {
             background-color: #122b39;
-            max-width: 800px;
+            max-width: 1000px;
             margin: auto;
         }
         h1 {
@@ -23,6 +23,8 @@
             font-family: 'Poppins', sans-serif;
             color: white;
             text-align: justify;
+            margin-left: auto;
+            margin-right: auto;
         }
         .chart {
             background-color: #122b39;
@@ -32,8 +34,8 @@
             display: flex;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 10px;
-            width: 400px;
-            height: 390px;
+            width: 420px;
+            height: 400px;
             border-radius: 10px;
             /*^This curves the corners.*/
             margin: 10px;
@@ -67,7 +69,7 @@
     @media only screen and (max-width: 840px) {
         body {
             background-color: #122b39;
-            max-width: 800px;
+            max-width: 300px;
             margin: auto;
         }
         h1 {
@@ -91,5 +93,21 @@
             text-align: center;
             text-align: justify;
             margin: 30px;
+        }
+        .chart {
+            background-color: #122b39;
+            border-style: solid;
+            border-color: #f4c245;
+            border-width: 1px;
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            /*^This curves the corners.*/
+            margin: 10px;
+            padding: 3px;
+            float: left;
         }
     }
