@@ -1,4 +1,4 @@
-economy,Country,SP.POP.TOTL,NY.GDP.MKTP.PP.KD,Total Population (millions),GDP (billions $),Gold,Silver,Bronze,Total Medals,Year,Continent
+economy,Country,SP.POP.TOTL,NY.GDP.MKTP.PP.KD,Total Population (millions),GDP (billions $),Gold,Silver,Bronze,Total_Medals,Year,Continent
 ZWE,Zimbabwe,12379553,26985601092,12.38,26.99,1,3,0,4,2008,Africa
 ZMB,Zambia,12848531,35300548790,12.85,35.30,0,0,0,0,2008,Africa
 ZAF,South Africa,49779472,6.88E+11,49.78,687.51,0,1,0,1,2008,Africa
