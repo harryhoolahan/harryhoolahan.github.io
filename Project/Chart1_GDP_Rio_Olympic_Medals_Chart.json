@@ -13,9 +13,9 @@
         "color": "#FEFEFE",
         "fontWeight": "bold"
     },
-    "height": 270,
+    "height": 260,
     "width": 300,
-    "config": { "background": "#404040", "view": { "stroke": "transparent" } },
+    "config": { "background": "#122b39", "view": { "stroke": "transparent" } },
     "data": {
         "url": "https://raw.githubusercontent.com/harryhoolahan/harryhoolahan.github.io/main/Project/World_Bank_Medals_Table_Data.csv",
         "format": { "type": "csv" }
@@ -28,7 +28,7 @@
         {
             "name": "Min_Medals",
             "value": 0,
-            "bind": { "input": "range", "min": 0, "max": 40, "step": 1 }
+            "bind": { "input": "range", "min": 0, "max": 10, "step": 1, "name": "Min Medals" }
         },
         {
             "name": "filter_continent",
@@ -61,9 +61,7 @@
         },
         { "filter": "datum.Year==Year" },
         { "filter": "datum.Total>=Min_Medals" }
-
     ],
-    "config": { "background": "#122b39" },
     "view": { "stroke": "transparent" },
     "layer": [{
         "mark": { "type": "point", "filled": true },
@@ -82,7 +80,9 @@
                 "type": "quantitative",
                 "axis": {
                     "titleColor": "white",
+                    "domainColor": "dimgrey",
                     "grid": false,
+                    "labelSeparation": 10,
                     "labelColor": "white",
                     "tickCount": 4
                 },
@@ -92,10 +92,15 @@
                 "field": "Total",
                 "title": "Medals",
                 "type": "quantitative",
-                "axis": { "titleColor": "white", "grid": false, "labelColor": "white" },
+                "axis": {
+                    "titleColor": "white",
+                    "grid": false,
+                    "gridColor": "dimgrey",
+                    "labelColor": "white",
+                    "domainColor": "dimgrey"
+                },
                 "scale": { "type": "linear" }
             },
-
             "color": {
                 "field": "Continent",
                 "scale": {
