@@ -30,17 +30,37 @@
             background-color: #122b39;
             border-style: solid;
             border-color: #f4c245;
+            color: #dbd8d8ec;
             border-width: 1px;
             display: flex;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 10px;
             width: 420px;
-            height: 400px;
+            height: 430px;
             border-radius: 10px;
             /*^This curves the corners.*/
             margin: 10px;
             padding: 3px;
             float: left;
+        }
+        /* Styles my selectors and sliders in my charts */
+        .vega-bind-name {
+            color: #FEFEFE;
+            font-family: 'Epilogue', sans-serif;
+        }
+        .vega-bind label span {
+            color: #FEFEFE;
+            font-family: 'Epilogue', sans-serif;
+        }
+        .vega-bind label select {
+            color: #FEFEFE;
+            font-family: 'Epilogue', sans-serif;
+        }
+        .vega-bind select {
+            background-color: transparent;
+        }
+        .vega-bind select option {
+            background-color: #404040;
         }
         .navigationbutton {
             border: 1px solid #f4c245;
@@ -75,6 +95,7 @@
         h1 {
             color: rgb(212, 204, 204);
             font-family: 'Poppins', sans-serif;
+            font-size: large;
             text-align: center;
         }
         h2 {
@@ -93,6 +114,14 @@
             text-align: center;
             text-align: justify;
             margin: 30px;
+        }
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: center;
+            gap: 30px 30px;
+            margin-top: 30px;
         }
         .chart {
             background-color: #122b39;
