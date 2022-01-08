@@ -4,11 +4,11 @@
     @media only screen and (min-width: 840px) {
         body {
             background-color: #122b39;
-            max-width: 1000px;
+            max-width: 1100px;
             margin: auto;
         }
         h1 {
-            color: rgb(212, 204, 204);
+            color: #f4c245;
             font-family: 'Poppins', sans-serif;
         }
         h2 {
@@ -18,6 +18,11 @@
         h3 {
             color: white;
             font-family: 'Poppins', sans-serif;
+        }
+        h4 {
+            color: rgb(170, 63, 202);
+            font-family: 'Poppins', sans-serif;
+            font-size: medium;
         }
         p {
             font-family: 'Poppins', sans-serif;
@@ -44,7 +49,7 @@
             float: left;
         }
         /*Stlying for charts that do not include filtering sliders and selectors */
-        .chart {
+        .chart1 {
             background-color: #122b39;
             border-style: solid;
             border-color: #f4c245;
