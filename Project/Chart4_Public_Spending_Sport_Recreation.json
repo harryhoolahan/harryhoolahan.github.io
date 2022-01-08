@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-        "text": ["Figure 3: Effect of public spending on sport and", "recreation"],
+        "text": ["Figure 4: Effect of public spending on sport and", "recreation"],
         "subtitle": [
             "2013-16 Population and General Government expenditure on recreation and", "sport.Source Eurostat. Rio 2016 Medals. Source scraped from Olympic Games", "Musuem."
         ],
