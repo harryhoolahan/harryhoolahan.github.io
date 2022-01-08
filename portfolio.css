@@ -1,99 +1,100 @@
-body {
-    background-color: #122b39;
-    max-width: 1100px;
-    margin: auto;
-}
-
-h1 {
-    color: rgb(212, 204, 204);
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    color: #f4c245;
-    font-family: 'Poppins', sans-serif;
-}
-
-h3 {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    text-align: left;
-}
-
-.chart {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: 390px;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 5px;
-    background-color: white;
-    border-style: solid;
-}
-
-.chart1 {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: 390px;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 5px;
-    background-color: #122b39;
-    border-style: solid;
-    border-color: #f4c245;
-    border-width: 1px;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.navigationbutton {
-    background-color: #f4c245;
-    border: 10px solid #f4c245;
-    color: black;
-    font-family: Arial;
-    line-height: 40px;
-    font-weight: 600;
-    border-radius: 150px;
-    box-sizing: content-box;
-    align-items: flex-start;
-    display: inline-block;
-    font-size: 12px;
-    margin: 1px 2px 1px 2px;
-    text-decoration: none;
-    max-width: 200px;
-    outline-offset: 2px;
-    overflow: hidden;
-    padding: 5px 12px;
-    text-align: left;
-    text-overflow: ellipsis;
-    font-size: 20px;
-}
-
-.buttondiv {
-    display: flex;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
+    body {
+        background-color: #122b39;
+        max-width: 1100px;
+        margin: auto;
+    }
+    
+    h1 {
+        color: rgb(212, 204, 204);
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: center;
+        color: #f4c245;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    h3 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+    }
+    
+    p {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        text-align: left;
+    }
+    
+    .chart {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 390px;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 5px;
+        background-color: white;
+        border-style: solid;
+    }
+    /*Stlying for charts that include filtering sliders and selectors */
+    
+    .chart {
+        background-color: #122b39;
+        border-style: solid;
+        border-color: #f4c245;
+        color: #dbd8d8ec;
+        border-width: 1px;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        width: 420px;
+        height: 430px;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 3px;
+        float: left;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Styling the buttons that help navigate around the website */
+    
+    .navigationbutton {
+        border: 1px solid #f4c245;
+        background-color: #f4c245;
+        color: black;
+        font-family: Arial;
+        line-height: 20px;
+        font-weight: 600;
+        border-radius: 150px;
+        box-sizing: content-box;
+        align-items: center;
+        display: inline-block;
+        font-size: 12px;
+        margin: 1px 2px 1px 2px;
+        text-decoration: none;
+        max-width: 100px;
+        outline-offset: 2px;
+        overflow: hidden;
+        padding: 5px 12px;
+        text-align: left;
+        text-overflow: ellipsis;
+    }
+    
+    .buttondiv {
+        display: flex;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
