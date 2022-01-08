@@ -44,24 +44,22 @@
             float: left;
         }
         /* Styles my selectors and sliders in my charts */
-        .vega-bind-name {
-            color: #FEFEFE;
-            font-family: 'Epilogue', sans-serif;
+        .grid_items>div:nth-child(3n + 2) {
+            background-color: #122b39;
         }
-        .vega-bind label span {
-            color: #FEFEFE;
-            font-family: 'Epilogue', sans-serif;
+        .grid_items>div:nth-child(3n) {
+            background-color: #122b39;
         }
-        .vega-bind label select {
-            color: #FEFEFE;
-            font-family: 'Epilogue', sans-serif;
+        .textLink {
+            color: #c5bdbd !important;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+            font-weight: 400;
+            text-decoration: underline !important;
         }
-        .vega-bind select {
-            background-color: transparent;
+        .textLink a:hover {
+            color: rgb(255, 173, 31) !important;
         }
-        .vega-bind select option {
-            background-color: #404040;
-        }
+        /* Styling the buttons that help navigate around the website */
         .navigationbutton {
             border: 1px solid #f4c245;
             background-color: #f4c245;

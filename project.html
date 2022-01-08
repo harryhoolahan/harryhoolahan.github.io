@@ -47,9 +47,9 @@
         </p>
     </div>
 
-    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
 
-    <h3>Question 2: Which countries outperform in the olympics, considering their economy?</h3>
+    <h3>Question 2: Is there a reltionship between population size and Olympic success?</h3>
     <!--Chart 2 -->
     <div class="chart" id="chart2">
         <script>
@@ -57,25 +57,28 @@
             vegaEmbed('#chart2', myChart2);
         </script>
     </div>
-    <br>
-    <p>Chart 3 shows which country's gain the highest number of medals compared to the size of their GDP</p>
-    <!--Chart 3 -->
+    <div>
+        <br>
+        <p>Chart 2 shows the relationship between a country's popultaion and their performance in the Olympics. We see that there is a positive relationship between population size and medals won. The population data is sourced from the World Bank's World
+            Development Indicators database.</p>
+        <p>When filtering the graph by continent, we see a much stronger relationship in Europe of higher GDP leading to more medals won.</p>
+        <p>A challenge I faced when creating this chart was fitting all the countries on one visualtion. The US has a population of 300 million, compared to Barbados wth x million. I counteracted this issue by employing a logarithmic scale on the x-axis.
+        </p>
+    </div>
+    ><br><br><br><br><br><br><br><br><br><br><br>
+
+    <h3>Question 3: Which countries outperform in the olympics, considering their population?</h3>
+    <!--Chart 2 -->
     <div class="chart" id="chart3">
         <script>
-            var myChart3 = "Project/Chart4_Medal_Points_By_GDP.json";
+            var myChart3 = "Project/Chart3_Medals_Per_Capita_Chart.json";
             vegaEmbed('#chart3', myChart3);
         </script>
     </div>
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <h3>Question 4: The relationship between public spending on sport and recreation and olympic performance?</h3>
-    <!--Chart 4 -->
-    <div class="chart" id="chart4">
-        <script>
-            var myChart4 = "Project/Chart3_Public_Spending_Sport_Recreation.json";
-            vegaEmbed('#chart4', myChart4);
-        </script>
+    <div>
+        <p>Chart 3 shows which country's gain the highest number of medals compared to the size of their GDP. As we can see, North American islands, such as Jamaica overachive at the Olympics when we take into account the small size of their economy.</p>
     </div>
+
 
 
     <!-- ///////////////////  END BODY ////////////////////////////////////// -->
