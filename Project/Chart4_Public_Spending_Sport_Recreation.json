@@ -1,9 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-        "text": ["Figure 4: Effect of public spending on sport and", "recreation"],
+        "text": ["Figure 4: Effect of sport and recreation public spending"],
         "subtitle": [
-            "2013-16 Population and General Government expenditure on recreation and", "sport.Source Eurostat. Rio 2016 Medals. Source scraped from Olympic Games", "Musuem."
+            "2013-16 Population and General Government expenditure on recreation and",
+            "sport.Source Eurostat. Rio 2016 Medals. Source scraped from Olympic Games",
+            "Musuem."
         ],
         "subtitleFontStyle": "italic",
         "subtitleFontSize": 10,
@@ -25,7 +27,7 @@
         "encoding": {
             "tooltip": [
                 { "field": "Country" },
-                { "field": "Medal Points" },
+                { "field": "Total Medals" },
                 { "field": "Average spend" }
             ],
             "x": {
@@ -35,8 +37,8 @@
                 "axis": { "titleColor": "white", "grid": false, "labelColor": "white" }
             },
             "y": {
-                "field": "Medal Points",
-                "title": "Olympic Medal Points",
+                "field": "Total Medals",
+                "title": "Medals",
                 "type": "quantitative",
                 "axis": { "titleColor": "white", "grid": false, "labelColor": "white" },
                 "scale": { "type": "linear" }
