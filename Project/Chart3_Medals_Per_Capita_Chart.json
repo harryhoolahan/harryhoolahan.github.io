@@ -15,7 +15,7 @@
     },
     "config": { "background": "#122b39" },
     "height": 300,
-    "width": 270,
+    "width": 250,
     "data": {
         "url": "https://raw.githubusercontent.com/harryhoolahan/harryhoolahan.github.io/main/Project/World_Bank_Medal_Winners_Table_Data.csv"
     },
