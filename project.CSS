@@ -108,59 +108,86 @@
             text-overflow: ellipsis;
         }
     }
-    /* CSS for mobile screens */
+    /* Mobile first: The CSS below sets a different number of columns on the page depending on the size of the screen 
+    of the user. A mobile phone displays one column, and iPad displays two, and a typical computer screen displays 
+    three.*/
+    /*----------------------------------------------------------------------------------------------------------------
+                                            DIFFERENT SCREEN SIZES
+    -----------------------------------------------------------------------------------------------------------------*/
+    /* One column */
     
-    @media only screen and (max-width: 800px) {
-        body {
-            background-color: #122b39;
-            max-width: 800px;
-            margin: auto;
-        }
-        h1 {
-            color: rgb(212, 204, 204);
-            font-family: 'Poppins', sans-serif;
-            font-size: large;
+    @media only screen and (min-width: 250px) {
+        .grid_items {
+            grid-template-columns: 100%;
+            max-width: 420px;
+            margin: 0 auto 0 auto;
+            padding: 0 5 0 5;
+            grid-column-gap: 10px;
+            grid-row-gap: 40px;
             text-align: center;
         }
-        h2 {
-            color: #f4c245;
-            font-family: 'Poppins', sans-serif;
-        }
-        h3 {
-            color: white;
-            font-family: 'Poppins', sans-serif;
-            font-size: large;
+        .wrap {
+            grid-template-columns: 100%;
+            max-width: 360px;
+            margin: 0 auto 0 auto !important;
+            padding: 0 5 0 5;
+            grid-column-gap: 10px;
+            grid-row-gap: 40px;
             text-align: center;
         }
-        p {
-            font-family: 'Poppins', sans-serif;
-            color: white;
-            text-align: center;
-            text-align: justify;
-            margin: 30px;
+        .grid_items>div {
+            padding: 10px;
         }
-        .container {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: center;
-            align-content: center;
-            gap: 30px 30px;
-            margin-top: 30px;
+        .rubric {
+            text-align: left;
         }
-        .chart {
-            background-color: #122b39;
-            border-style: solid;
-            border-color: #f4c245;
-            border-width: 1px;
-            display: flex;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 10px;
-            width: 300px;
-            height: 300px;
-            border-radius: 10px;
-            /*^This curves the corners.*/
-            margin: 10px;
-            padding: 3px;
-            float: left;
+    }
+    /* Two columns*/
+    
+    @media only screen and (min-width: 900px) {
+        .grid_items,
+        .wrap {
+            grid-template-columns: 47.5% 47.5%;
+            max-width: 880px;
+            margin: 0 auto 0 auto !important;
+            padding: 0 5 0 5;
+            grid-column-gap: 10px;
+            grid-row-gap: 40px;
+            text-align: left;
+        }
+        .grid_items>div {
+            padding: 10px;
+        }
+    }
+    /* Three columns*/
+    
+    @media only screen and (min-width: 1400px) {
+        .grid_items,
+        .wrap {
+            grid-template-columns: 30% 30% 30%;
+            max-width: 1400px;
+            margin: 0 auto 0 auto !important;
+            padding: 0 5 0 5;
+            grid-column-gap: 20px;
+            grid-row-gap: 50px;
+        }
+        .grid_items>div {
+            padding: 10px;
+        }
+    }
+    /* Four columns*/
+    
+    @media only screen and (min-width: 1800px) {
+        .grid_items,
+        .wrap {
+            grid-template-columns: 25% 25% 25% 25%;
+            max-width: 1900px;
+            margin: 0 auto 0 auto !important;
+            padding: 0 5 0 5;
+            grid-column-gap: 20px;
+            grid-row-gap: 50px;
+        }
+        .grid_items>div {
+            padding: 10px;
         }
     }
