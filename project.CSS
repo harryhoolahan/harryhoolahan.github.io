@@ -5,6 +5,7 @@
         margin-left: 30px;
         margin-right: 30px;
         background-size: 200% 200%;
+        overflow-x: hidden;
     }
     
     h1 {
@@ -118,15 +119,11 @@
         text-align: left;
         text-overflow: ellipsis;
     }
-    /* Mobile first: The CSS below sets a different number of columns on the page depending on the size of the screen 
-    of the user. A mobile phone displays one column, and iPad displays two, and a typical computer screen displays 
-    three.*/
     /*----------------------------------------------------------------------------------------------------------------
                                             DIFFERENT SCREEN SIZES
     -----------------------------------------------------------------------------------------------------------------*/
-    /* One column */
     
-    @media (max-width: 700px) {
+    @media (max-width: 500px) {
         body {
             overflow-x: hidden;
         }
@@ -135,6 +132,7 @@
         }
         .chart1 {
             width: 380px;
+            position: relative;
         }
         h1 {
             font-size: 150px;
@@ -146,16 +144,4 @@
         p {
             font-size: 35px
         }
-        div.rest {
-            left: -275px;
-            margin-left: 30px;
-            margin-right: 50px;
-            position: absolute;
-        }
-    }
-    
-    div.rest {
-        margin-left: 300px;
-        margin-right: 50px;
-        padding: 1px 16px;
     }
