@@ -68,6 +68,11 @@
         font-size: 16px;
         font-weight: 300;
     }
+    
+    .vega-bind label span {
+        color: #FEFEFE;
+        font-family: Arial;
+    }
     /*Fig. 3 needs a slightly wider base */
     
     .figure3 {
