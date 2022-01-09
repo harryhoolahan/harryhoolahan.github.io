@@ -42,37 +42,25 @@
 
     <div class="container">
         <!--Chart 1: this chart is a scatter plot of GDP against Olympic medals won against countries -->
-        <div class="left-column">
-            <div class="chart" id="chart1">
-                <script>
-                    var myChart1 = "Project/Chart1_GDP_Olympic_Medals_Chart.json";
-                    vegaEmbed('#chart1', myChart1);
-                </script>
-            </div>
+        <div class="chart" id="chart1">
+            <script>
+                var myChart1 = "Project/Chart1_GDP_Olympic_Medals_Chart.json";
+                vegaEmbed('#chart1', myChart1);
+            </script>
         </div>
-        <div class="right-column">
-            <p>Fig.1 highlights a strong postive relationship between GDP and Olympic medals won. Until a country's economy has grown past $10 billion, it is very unlikely they will win a singe medal in the games, with Samoa and Grenada being the only exceptions.
-                If we filter by continent, Europe exhibits the strongest positive correlation between GDP and medals, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics irrespective
-                of the size of their economy.</p>
+        <p>Fig.1 highlights a strong postive relationship between GDP and Olympic medals won. Until a country's economy has grown past $10 billion, it is very unlikely they will win a singe medal in the games, with Samoa and Grenada being the only exceptions.
+            If we filter by continent, Europe exhibits the strongest positive correlation between GDP and medals, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics irrespective
+            of the size of their economy.</p>
 
-            <p>Fig.1 highlights a strong postive relationship between GDP and Olympic medals won. Until a country's economy has grown past $10 billion, it is very unlikely they will win a singe medal in the games, with Samoa and Grenada being the only exceptions.
-                If we filter by continent, Europe exhibits the strongest positive correlation between GDP and medals, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics irrespective
-                of the size of their economy.</p>
-            <p>In creating this chart, I decided to use GDP that had been converted using the purchasing power parity (PPP) exchange rate becasue it allows for better cross-country comparison. GDP was also counted at constant 2017 dollar prices becasue I
-                am looking at an indicator over time, and thus want to remove the effect of inflation. A challenge in creating this chart was fitting all the countries on one visualisation, given the vast variance between countries GDP. For example, the
-                US economy was $19,097 billion in 2016, whereas Tuvalu's GDP was $0.04 billion. I accounted for this issue by using a logarithmic scale on the x-axis.</p>
-        </div>
-
-
+        <p>Fig.1 highlights a strong postive relationship between GDP and Olympic medals won. Until a country's economy has grown past $10 billion, it is very unlikely they will win a singe medal in the games, with Samoa and Grenada being the only exceptions.
+            If we filter by continent, Europe exhibits the strongest positive correlation between GDP and medals, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics irrespective
+            of the size of their economy.</p>
+        <p>In creating this chart, I decided to use GDP that had been converted using the purchasing power parity (PPP) exchange rate becasue it allows for better cross-country comparison. GDP was also counted at constant 2017 dollar prices becasue I am
+            looking at an indicator over time, and thus want to remove the effect of inflation. A challenge in creating this chart was fitting all the countries on one visualisation, given the vast variance between countries GDP. For example, the US economy
+            was $19,097 billion in 2016, whereas Tuvalu's GDP was $0.04 billion. I accounted for this issue by using a logarithmic scale on the x-axis.</p>
+    </div>
     </div>
 
-
-    <p>Fig.1 highlights a strong postive relationship between GDP and Olympic medals won. Until a country's economy has grown past $10 billion, it is very unlikely they will win a singe medal in the games, with Samoa and Grenada being the only exceptions.
-        If we filter by continent, Europe exhibits the strongest positive correlation between GDP and medals, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics irrespective of
-        the size of their economy.</p>
-    <p>In creating this chart, I decided to use GDP that had been converted using the purchasing power parity (PPP) exchange rate becasue it allows for better cross-country comparison. GDP was also counted at constant 2017 dollar prices becasue I am looking
-        at an indicator over time, and thus want to remove the effect of inflation. A challenge in creating this chart was fitting all the countries on one visualisation, given the vast variance between countries GDP. For example, the US economy was $19,097
-        billion in 2016, whereas Tuvalu's GDP was $0.04 billion. I accounted for this issue by using a logarithmic scale on the x-axis.</p>
 
     <h3>Question 2: Is there a relationship between population size and their performance at the summer Olympics?
     </h3>
@@ -92,6 +80,8 @@
         India seems to not follow this trend; their population is almost as large as China's and yet they perform considerbaly worse, only achieving two medals in 2016.
 
         <p>Like in Fig.1 I employed a logarithmic scale on the x-axis becasue spread the scatters out more on the visulisation, allowing for better visual analysis.</p>
+        </div>
+        </div>
 
         <h3>Question 3: Which countries outperform in the olympics, considering their population?</h3>
 
