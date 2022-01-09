@@ -1,0 +1,74 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Bitcoin and Etherium price in 2021",
+        "subtitle": ["Weekly closing price. Source Yahoo Finance."],
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "subtitleColor": "#dbd8d8ec",
+        "anchor": "start",
+        "color": "#FEFEFE",
+        "fontWeight": "bold"
+    },
+    "height": 300,
+    "width": 300,
+    "config": { "background": "#122b39", "view": { "stroke": "transparent" } },
+    "data": {
+        "url": "https://raw.githubusercontent.com/harryhoolahan/harryhoolahan.github.io/main/week9/BTC_ETH_price_2021.csv",
+        "format": { "type": "csv" }
+    },
+    "layer": [{
+            "mark": { "type": "point", "filled": true, "color": "#aeda11" },
+            "encoding": {
+                "x": {
+                    "field": "BTC close",
+                    "title": "BTC price (USD)",
+                    "type": "quantitative",
+                    "axis": {
+                        "titleColor": "white",
+                        "domainColor": "dimgrey",
+                        "grid": false,
+                        "labelSeparation": 10,
+                        "labelColor": "white",
+                        "tickCount": 7
+                    },
+                    "scale": { "domain": [25000, 70000] }
+                },
+                "y": {
+                    "field": "ETH close",
+                    "title": "ETH price (USD)",
+                    "type": "quantitative",
+                    "axis": {
+                        "titleColor": "white",
+                        "grid": false,
+                        "gridColor": "dimgrey",
+                        "labelColor": "white",
+                        "domainColor": "dimgrey"
+                    }
+                }
+            }
+        },
+        {
+            "mark": { "type": "line", "color": "firebrick" },
+            "transform": [{ "regression": "ETH close", "on": "BTC close" }],
+            "encoding": {
+                "x": { "field": "BTC close", "type": "quantitative" },
+                "y": { "field": "ETH close", "type": "quantitative" }
+            }
+        },
+        {
+            "transform": [
+                { "regression": "ETH close", "on": "BTC close", "params": true },
+                { "calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2" }
+            ],
+            "mark": {
+                "type": "text",
+                "color": "white",
+                "x": "width",
+                "align": "right",
+                "y": -5
+            },
+            "encoding": { "text": { "type": "nominal", "field": "R2" } }
+        }
+    ]
+}
