@@ -3,8 +3,8 @@
     
     body {
         background-color: #122b39;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 30px;
+        margin-right: 30px;
         background-size: 100% 100%;
     }
     
@@ -60,8 +60,8 @@
         display: flex;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 10px;
-        width: 420px;
-        height: 430px;
+        width: 500px;
+        height: 400px;
         border-radius: 10px;
         margin: 10px;
         padding: 3px;
@@ -78,8 +78,8 @@
         display: flex;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 10px;
-        width: 350px;
-        height: 350px;
+        width: 500px;
+        height: 400px;
         border-radius: 10px;
         margin: 10px;
         padding: 3px;
@@ -151,7 +151,7 @@
         }
         h1 {
             font-size: 150px;
-            color: seagreen;
+            color: rgb(185, 33, 33);
         }
         h2 {
             font-size: 30px
