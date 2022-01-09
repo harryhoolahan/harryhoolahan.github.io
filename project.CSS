@@ -110,10 +110,10 @@
     }
     /* CSS for mobile screens */
     
-    @media only screen and (max-width: 840px) {
+    @media only screen and (max-width: 800px) {
         body {
             background-color: #122b39;
-            max-width: 300px;
+            max-width: 800px;
             margin: auto;
         }
         h1 {
