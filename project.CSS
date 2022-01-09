@@ -52,7 +52,7 @@
     /*Stlying for charts that include filtering sliders and selectors */
     
     .chart {
-        width: 390px;
+        width: 370px;
         height: 450px;
         padding: 5px;
         background-color: #122b39;
@@ -76,7 +76,7 @@
     /*Stlying for charts that do not include filtering sliders and selectors */
     
     .chart1 {
-        width: 390px;
+        width: 370px;
         height: 390px;
         padding: 5px;
         background-color: #122b39;
@@ -121,8 +121,8 @@
     @media screen and (max-width: 959px) {
         body {
             overflow-x: hidden;
-            margin-left: 0%;
-            margin-right: 0%;
+            margin-left: 3%;
+            margin-right: 3%;
         }
         .chart {
             width: 95%;
@@ -138,8 +138,8 @@
     @media screen and (max-width: 640px) {
         .body {
             overflow: hidden;
-            margin-left: 0%;
-            margin-right: 0%;
+            margin-left: 3%;
+            margin-right: 3%;
         }
         .chart {
             width: 95%;
@@ -155,6 +155,8 @@
     @media screen and (max-width: 320px) {
         body {
             overflow-x: hidden;
+            margin-left: 3%;
+            margin-right: 3%;
         }
         .chart {
             width: 100%;
