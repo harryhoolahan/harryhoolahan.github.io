@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-        "text": "Figure 1: Population and Olympic medals",
+        "text": "Figure 2: Population and Olympic medals",
         "subtitle": [
             "Population,total. Source World Bank. Olympic Medals. Source scraped", "from Wikipedia."
         ],
