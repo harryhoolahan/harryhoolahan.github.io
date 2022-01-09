@@ -1,5 +1,6 @@
     body {
         background-color: #122b39;
+        background-size: 200% 200%;
         overflow-x: hidden;
     }
     
@@ -55,8 +56,9 @@
     
     .container {
         display: flex;
-        align-items: left;
+        flex-flow: row wrap;
         justify-content: center;
+        text-align: left;
     }
     /* Styles my selectors and sliders in my charts */
     
@@ -125,8 +127,8 @@
     }
     
     @media screen and (max-width: 640px) {
-        .container {
-            width: 100%
+        body {
+            overflow-x: hidden;
         }
         .chart {
             width: 100%;
@@ -137,8 +139,8 @@
     }
     
     @media screen and (max-width: 320px) {
-        .container {
-            width: 320px;
+        body {
+            overflow-x: hidden;
         }
         .chart {
             width: 100%;
