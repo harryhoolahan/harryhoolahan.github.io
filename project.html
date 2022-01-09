@@ -26,15 +26,12 @@
         <h2>Investigating the relationship between economic indicators and Olympic medals</h2>
     </header>
 
-
     <!--Here are the navigations buttons that link to other pages-->
     <a class="navigationbutton" href="index.html">Homepage</a>
     <a class="navigationbutton" href="portfolio.html">Portfolio</a>
     <a class="navigationbutton" href="https://github.com/harryhoolahan/harryhoolahan.github.io">GitHub</a>
     <a class="navigationbutton" href="https://rapidcharts.io/datascience">RapidCharts</a>
 
-    <!--Break before the charts-->
-    <br>
     <!--This paragraph provides a brief context and rationale behind the choice of my project subject-->
     <p>Aims: Following my graduation from Bristol, I would potentially like to pursue a career in sports data analysis. With this in mind, I used the opportunity to combine sport and Economics in my Data Science project that investigates the relationship
         between economic indicators and a country's success at the summer Olympics.</p>
@@ -54,21 +51,15 @@
     </div>
 
 
-    <p>Fig.1 highlights a strong postive relationship between GDP and Olympic medals won. Until a country's economy has grown past $10 billion, it is very unlikely they will win a singe medal in the games, with Samoa and Grenada being the only exceptions.</p>
-
-    <p>If we filter by continent, Europe exhibits the strongest positive correlation between GDP and medals, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics irrespective of the
-        size of their economy.</p>
-
-    <p>In creating this chart, I decided to use GDP that has been converted using the purchasing power parity (PPP) exchange rate becasue it allows for better cross-country comparison. GDP was also counted at constant 2017 dollar prices becasue I am looking
-        at an indicator over time, and thus want to remove the effect of inflation.</p>
-    <p>A challenge in creating this chart was fitting all the countries on one visualisation, given the vast variance between countries GDP. For example, the US economy was $19,097 billion in 2016, whereas Tuvalu's GDP was $0.04 billion. I accounted for
-        this issue by using a logarithmic scale on the x-axis.</p>
-
-
+    <p>Fig.1 highlights a strong postive relationship between GDP and Olympic medals won. Until a country's economy has grown past $10 billion, it is very unlikely they will win a singe medal in the games, with Samoa and Grenada being the only exceptions.
+        If we filter by continent, Europe exhibits the strongest positive correlation between GDP and medals, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics irrespective of
+        the size of their economy.</p>
+    <p>In creating this chart, I decided to use GDP that had been converted using the purchasing power parity (PPP) exchange rate becasue it allows for better cross-country comparison. GDP was also counted at constant 2017 dollar prices becasue I am looking
+        at an indicator over time, and thus want to remove the effect of inflation. A challenge in creating this chart was fitting all the countries on one visualisation, given the vast variance between countries GDP. For example, the US economy was $19,097
+        billion in 2016, whereas Tuvalu's GDP was $0.04 billion. I accounted for this issue by using a logarithmic scale on the x-axis.</p>
 
     <h3>Question 2: Is there a relationship between population size and their performance at the summer Olympics?
     </h3>
-
 
     <div class="container">
         <!--Chart 2 -->
@@ -80,57 +71,55 @@
         </div>
     </div>
 
+    <p>Fig.2 looks visually very similar to Fig.1, which is unsurprising given that population size is a strong determinant of the size of a countries economy. Here we see that there is also a strong positive relationship between a countries population size
+        and the number of medals they win. This effect could be explained by greater player pools. China boasts a significant population size of 1,387.79 million people, increasing the likelihood owning olympic athletes capable of qualifying. However,
+        India seems to not follow this trend; their population is almost as large as China's and yet they perform considerbaly worse, only achieving two medals in 2016.
 
-    <br>
+        <p>Like in Fig.1 I employed a logarithmic scale on the x-axis becasue spread the scatters out more on the visulisation, allowing for better visual analysis.</p>
 
-    <p>Fig.2 visually looks very similar to Fig.1 which is unsurprising given that countries with larger populations generally have </p>
-    <p>When filtering the graph by continent, we see a much stronger relationship in Europe of higher GDP leading to more medals won.</p>
-    <p>A challenge I faced when creating this chart was fitting all the countries on one visualtion. The US has a population of 300 million, compared to Barbados wth x million. I counteracted this issue by employing a logarithmic scale on the x-axis.
-    </p>
+        <h3>Question 3: Which countries outperform in the olympics, considering their population?</h3>
 
-    <h3>Question 3: Which countries outperform in the olympics, considering their population?</h3>
-
-    <div class="container">
-        <!--Chart 3 -->
-        <div class="chart" id="chart3">
-            <script>
-                var myChart3 = "Project/Chart3_Medals_Per_Capita_Chart.json";
-                vegaEmbed('#chart3', myChart3);
-            </script>
+        <div class="container">
+            <!--Chart 3 -->
+            <div class="chart" id="chart3">
+                <script>
+                    var myChart3 = "Project/Chart3_Medals_Per_Capita_Chart.json";
+                    vegaEmbed('#chart3', myChart3);
+                </script>
+            </div>
         </div>
-    </div>
 
-    <br>
-    <p>For Beijing 2008, London 2012, and Rio 2016, Caribbean countries have stood out in winning Olympic medals given their small population sizes. For 2012 and 2016, Grenada ranked the highest for medals won per capita.
-    </p>
+        <br>
+        <p>For Beijing 2008, London 2012, and Rio 2016, Caribbean countries have stood out in winning Olympic medals given their small population sizes. For 2012 and 2016, Grenada ranked the highest for medals won per capita.
+        </p>
 
 
-    <h3>Question 4: Is there a strong relationhip between public money spent on sport and recreation and Olympic sucess?
-    </h3>
+        <h3>Question 4: Is there a strong relationhip between public money spent on sport and recreation and Olympic sucess?
+        </h3>
 
-    <div class="container">
-        <!--Chart 4 -->
-        <div class="chart1" id="chart4">
-            <script>
-                var myChart4 = "Project/Chart4_EU_Sport_Recreation_Spend.json";
-                vegaEmbed('#chart4', myChart4);
-            </script>
+        <div class="container">
+            <!--Chart 4 -->
+            <div class="chart1" id="chart4">
+                <script>
+                    var myChart4 = "Project/Chart4_EU_Sport_Recreation_Spend.json";
+                    vegaEmbed('#chart4', myChart4);
+                </script>
+            </div>
         </div>
-    </div>
-    <br>
-    <p>Chart 4 highlights a weak relationship between public money spent on sports and recreation and medals won. Luxembourg and Iceland stand out in terms of poor return on investment: on average durin the olympic cycle through to the Rio games they have
-        invested €435.45 and €495.43 per capita respectively and gained no medals at Rio.
-    </p>
-    <p>On the other hand, the United Kingdom gained a signficant return on investment. The UK won 67 medals, only spending €75.70 per capita on average. </p>
+        <br>
+        <p>Chart 4 highlights a weak relationship between public money spent on sports and recreation and medals won. Luxembourg and Iceland stand out in terms of poor return on investment: on average durin the olympic cycle through to the Rio games they
+            have invested €435.45 and €495.43 per capita respectively and gained no medals at Rio.
+        </p>
+        <p>On the other hand, the United Kingdom gained a signficant return on investment. The UK won 67 medals, only spending €75.70 per capita on average. </p>
 
 
-    <h3>Information on how the data was accessed and challenges in the data cleaning:</h3>
-    <p>For Figures 1-3, I accessed GDP (NY.GDP.MKTP.PP.KD) and population (SP.POP.TOTL) data from the World Bank API. By installing the WBGAPI python package on google colab, I was able to request the World Development Indicators (WDI).
-    </p>
-    <p>To access olympic medals data for the three games, I used the python package BeautifulSoup to web scrape Wikipedia pages.</p>
-    <p>As part of my analysis, I needed to perform a data join of the WDI indicators on olympic medals. However, it proved challenging merging the datasets together by country name becasue many observations did not match. To overcome this I used the World
-        Bank economy coder function to access the 3 digit ISO codes recognised by the world bank for the country names.
-    </p>
+        <h3>Information on how the data was accessed and challenges in the data cleaning:</h3>
+        <p>For Figures 1-3, I accessed GDP (NY.GDP.MKTP.PP.KD) and population (SP.POP.TOTL) data from the World Bank API. By installing the WBGAPI python package on google colab, I was able to request the World Development Indicators (WDI).
+        </p>
+        <p>To access olympic medals data for the three games, I used the python package BeautifulSoup to web scrape Wikipedia pages.</p>
+        <p>As part of my analysis, I needed to perform a data join of the WDI indicators on olympic medals. However, it proved challenging merging the datasets together by country name becasue many observations did not match. To overcome this I used the
+            World Bank economy coder function to access the 3 digit ISO codes recognised by the world bank for the country names.
+        </p>
 
 
 </body>
