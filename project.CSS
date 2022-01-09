@@ -23,7 +23,7 @@
     }
     
     h3 {
-        color: white;
+        color: rgb(192, 27, 214);
         font-family: 'Poppins', sans-serif;
     }
     
@@ -43,11 +43,11 @@
     /* Divisions to contain my charts and text */
     
     .container {
-        display: inside;
-        align-items: center;
-        align-items: left;
-        justify-content: left;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
         text-align: left;
+        margin-left: 10px;
     }
     /*Stlying for charts that include filtering sliders and selectors */
     
@@ -63,7 +63,7 @@
         width: 500px;
         height: 400px;
         border-radius: 10px;
-        margin: 10px;
+        margin-left: 50px;
         padding: 3px;
         float: left;
     }
@@ -81,7 +81,7 @@
         width: 500px;
         height: 400px;
         border-radius: 10px;
-        margin: 10px;
+        margin-left: 50px;
         padding: 3px;
         float: left;
     }
@@ -157,6 +157,6 @@
             font-size: 30px
         }
         p {
-            font-size: 30px
+            font-size: 35px
         }
     }
