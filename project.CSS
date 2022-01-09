@@ -130,7 +130,25 @@
     -----------------------------------------------------------------------------------------------------------------*/
     
     @media screen and (max-width: 959px) {
-        #container {
+        .container {
             width: 100%
+        }
+        .chart {
+            width: 100%;
+        }
+        .chart1 {
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 640px) {
+        .container {
+            width: 100%
+        }
+        .chart {
+            width: 100%;
+        }
+        .chart1 {
+            width: 100%;
         }
     }
