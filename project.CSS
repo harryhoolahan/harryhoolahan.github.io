@@ -46,15 +46,24 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        text-align: left;
+        text-align: center;
         margin-left: 10px;
+    }
+    
+    .left-column {
+        width: 35%;
+        align-items: center;
+    }
+    
+    .right-column {
+        width: 65%;
     }
     /*Stlying for charts that include filtering sliders and selectors */
     
     .chart {
         width: 390px;
-        height: 500px;
-        margin: 10px;
+        height: 450px;
+        margin-left: 100px;
         padding: 5px;
         background-color: #122b39;
         border: #f4c245 solid 1px;

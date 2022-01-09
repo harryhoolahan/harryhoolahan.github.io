@@ -42,12 +42,28 @@
 
     <div class="container">
         <!--Chart 1: this chart is a scatter plot of GDP against Olympic medals won against countries -->
-        <div class="chart" id="chart1">
-            <script>
-                var myChart1 = "Project/Chart1_GDP_Olympic_Medals_Chart.json";
-                vegaEmbed('#chart1', myChart1);
-            </script>
+        <div class="left-column">
+            <div class="chart" id="chart1">
+                <script>
+                    var myChart1 = "Project/Chart1_GDP_Olympic_Medals_Chart.json";
+                    vegaEmbed('#chart1', myChart1);
+                </script>
+            </div>
         </div>
+        <div class="right-column">
+            <p>Fig.1 highlights a strong postive relationship between GDP and Olympic medals won. Until a country's economy has grown past $10 billion, it is very unlikely they will win a singe medal in the games, with Samoa and Grenada being the only exceptions.
+                If we filter by continent, Europe exhibits the strongest positive correlation between GDP and medals, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics irrespective
+                of the size of their economy.</p>
+
+            <p>Fig.1 highlights a strong postive relationship between GDP and Olympic medals won. Until a country's economy has grown past $10 billion, it is very unlikely they will win a singe medal in the games, with Samoa and Grenada being the only exceptions.
+                If we filter by continent, Europe exhibits the strongest positive correlation between GDP and medals, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics irrespective
+                of the size of their economy.</p>
+            <p>In creating this chart, I decided to use GDP that had been converted using the purchasing power parity (PPP) exchange rate becasue it allows for better cross-country comparison. GDP was also counted at constant 2017 dollar prices becasue I
+                am looking at an indicator over time, and thus want to remove the effect of inflation. A challenge in creating this chart was fitting all the countries on one visualisation, given the vast variance between countries GDP. For example, the
+                US economy was $19,097 billion in 2016, whereas Tuvalu's GDP was $0.04 billion. I accounted for this issue by using a logarithmic scale on the x-axis.</p>
+        </div>
+
+
     </div>
 
 
@@ -106,7 +122,7 @@
                 </script>
             </div>
         </div>
-        <br>
+
         <p>Chart 4 highlights a weak relationship between public money spent on sports and recreation and medals won. Luxembourg and Iceland stand out in terms of poor return on investment: on average durin the olympic cycle through to the Rio games they
             have invested €435.45 and €495.43 per capita respectively and gained no medals at Rio.
         </p>
