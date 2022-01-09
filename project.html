@@ -35,12 +35,12 @@
     <p>Aims: Following my graduation from Bristol, I would potentially like to pursue a career in sports data analysis. With this in mind, I used the opportunity to combine sport and Economics in my Data Science project that investigates the relationship
         between economic indicators and a country's success at the summer Olympics.</p>
 
+
     <h3>Question 1: Is there a relationship between the size of a country's economy and their peformance at the summer Olympics?
     </h3>
 
-    <!--Begin Grid-->
-    <div class="grid_items">
-        <!--Chart 1: this chart is a scatter plot of GDP against Olympic medals won against countries -->
+    <!--Chart 1: this chart is a scatter plot of GDP against Olympic medals won against countries -->
+    <div class="container">
         <div class="chart" id="chart1">
             <script>
                 var myChart1 = "Project/Chart1_GDP_Olympic_Medals_Chart.json";
@@ -48,28 +48,27 @@
             </script>
         </div>
     </div>
-    <br>
 
-    <div class="wrap">
-        <p>Fig.1 highlights a strong postive relationship between GDP and Olympic medals won. Until a country's economy has grown past $10 billion, it is very unlikely they will win a singe medal in the games, with Samoa and Grenada being the only exceptions.</p>
 
-        <p>If we filter by continent, Europe exhibits the strongest positive correlation between GDP and medals, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics irrespective of
-            the size of their economy.</p>
+    <p>Fig.1 highlights a strong postive relationship between GDP and Olympic medals won. Until a country's economy has grown past $10 billion, it is very unlikely they will win a singe medal in the games, with Samoa and Grenada being the only exceptions.</p>
 
-        <p>In creating this chart, I decided to use GDP that has been converted using the purchasing power parity (PPP) exchange rate becasue it allows for better cross-country comparison. GDP was also counted at constant 2017 dollar prices becasue I am
-            looking at an indicator over time, and thus want to remove the effect of inflation.</p>
-        <p>A challenge in creating this chart was fitting all the countries on one visualisation, given the vast variance between countries GDP. For example, the US economy was $19,097 billion in 2016, whereas Tuvalu's GDP was $0.04 billion. I accounted
-            for this issue by using a logarithmic scale on the x-axis.</p>
+    <p>If we filter by continent, Europe exhibits the strongest positive correlation between GDP and medals, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics irrespective of the
+        size of their economy.</p>
+
+    <p>In creating this chart, I decided to use GDP that has been converted using the purchasing power parity (PPP) exchange rate becasue it allows for better cross-country comparison. GDP was also counted at constant 2017 dollar prices becasue I am looking
+        at an indicator over time, and thus want to remove the effect of inflation.</p>
+    <p>A challenge in creating this chart was fitting all the countries on one visualisation, given the vast variance between countries GDP. For example, the US economy was $19,097 billion in 2016, whereas Tuvalu's GDP was $0.04 billion. I accounted for
+        this issue by using a logarithmic scale on the x-axis.</p>
     </div>
 
     <br><br><br><br><br><br>
-    <div class="wrap">
-        <h3>Question 2: Is there a relationship between population size and their performance at the summer Olympics?
-        </h3>
-    </div>
-    <!--Begin Grid-->
-    <div class="grid_items">
-        <!--Chart 2 -->
+
+    <h3>Question 2: Is there a relationship between population size and their performance at the summer Olympics?
+    </h3>
+
+
+    <!--Chart 2 -->
+    <div class="container">
         <div class="chart" id="chart2">
             <script>
                 var myChart2 = "Project/Chart2_Population_Medals.json";
@@ -87,8 +86,9 @@
     <br><br><br><br><br><br><br><br><br><br><br>
 
     <h3>Question 3: Which countries outperform in the olympics, considering their population?</h3>
+
     <!--Begin Grid-->
-    <div class="grid_items">
+    <div class="container">
         <!--Chart 3 -->
         <div class="chart" id="chart3">
             <script>
@@ -106,7 +106,7 @@
     <h3>Question 4: Is there a strong relationhip between public money spent on sport and recreation and Olympic sucess?
     </h3>
     <!--Begin Grid-->
-    <div class="grid_items">
+    <div class="cotainer">
         <!--Chart 4 -->
         <div class="chart1" id="chart4">
             <script>

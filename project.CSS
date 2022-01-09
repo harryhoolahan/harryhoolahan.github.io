@@ -38,6 +38,14 @@
         margin-left: auto;
         margin-right: auto;
     }
+    /* Divisions to contain my charts and text */
+    
+    .container {
+        display: inside;
+        align-items: center;
+        align-items: left;
+        justify-content: left;
+    }
     /*Stlying for charts that include filtering sliders and selectors */
     
     .chart {
@@ -118,36 +126,6 @@
         text-align: left;
         text-overflow: ellipsis;
     }
-    /* ------------------------------------------------------------------------------
-	Grid stuff
--------------------------------------------------------------------------------*/
-    
-    .grid_items {
-        padding: 2px;
-        display: grid;
-        grid-template-columns: 100%;
-        max-width: 800px;
-        margin: 0 auto 0 auto !important;
-        padding: 0 5 0 5;
-        grid-column-gap: 5px;
-        grid-row-gap: 20px;
-    }
-    
-    .grid_items>div {
-        background-color: #ffffff;
-        padding: 5px;
-        border-radius: 10px;
-        width: 360px;
-        margin: auto;
-    }
-    
-    .grid_items>div:nth-child(3n + 2) {
-        background-color: #ffffff;
-    }
-    
-    .grid_items>div:nth-child(3n) {
-        background-color: #ffffff;
-    }
     /* Mobile first: The CSS below sets a different number of columns on the page depending on the size of the screen 
     of the user. A mobile phone displays one column, and iPad displays two, and a typical computer screen displays 
     three.*/
@@ -157,74 +135,52 @@
     /* One column */
     
     @media only screen and (min-width: 250px) {
-        .grid_items {
+        .container {
             grid-template-columns: 100%;
             max-width: 420px;
             margin: 0 auto 0 auto;
             padding: 0 5 0 5;
             grid-column-gap: 10px;
             grid-row-gap: 40px;
-            text-align: center;
-        }
-        .wrap {
-            grid-template-columns: 100%;
-            max-width: 360px;
-            margin: 0 auto 0 auto !important;
-            padding: 0 5 0 5;
-            grid-column-gap: 10px;
-            grid-row-gap: 40px;
-            text-align: center;
-        }
-        .grid_items>div {
-            padding: 10px;
+            text-align: left;
         }
     }
     /* Two columns*/
     
     @media only screen and (min-width: 900px) {
-        .grid_items,
-        .wrap {
+        .container {
             grid-template-columns: 47.5% 47.5%;
             max-width: 880px;
-            margin: 0 auto 0 auto !important;
+            margin: 0 auto 0 auto;
             padding: 0 5 0 5;
             grid-column-gap: 10px;
             grid-row-gap: 40px;
             text-align: left;
         }
-        .grid_items>div {
-            padding: 10px;
-        }
     }
     /* Three columns*/
     
     @media only screen and (min-width: 1400px) {
-        .grid_items,
-        .wrap {
-            grid-template-columns: 30% 30% 30%;
+        .container {
+            grid-template-columns: 30% 30%;
             max-width: 1400px;
-            margin: 0 auto 0 auto !important;
+            margin: 0 auto 0 auto;
             padding: 0 5 0 5;
-            grid-column-gap: 20px;
-            grid-row-gap: 50px;
-        }
-        .grid_items>div {
-            padding: 10px;
+            grid-column-gap: 10px;
+            grid-row-gap: 40px;
+            text-align: left;
         }
     }
     /* Four columns*/
     
     @media only screen and (min-width: 1800px) {
-        .grid_items,
-        .wrap {
+        .container {
             grid-template-columns: 25% 25% 25% 25%;
-            max-width: 1900px;
-            margin: 0 auto 0 auto !important;
+            max-width: 1800px;
+            margin: 0 auto 0 auto;
             padding: 0 5 0 5;
             grid-column-gap: 20px;
             grid-row-gap: 50px;
-        }
-        .grid_items>div {
-            padding: 10px;
+            text-align: left;
         }
     }
