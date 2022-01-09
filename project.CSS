@@ -37,7 +37,6 @@
     p {
         font-family: 'Poppins', sans-serif;
         color: white;
-        text-align: justify;
         margin-left: auto;
         margin-right: auto;
     }
@@ -68,25 +67,6 @@
         color: white;
         font-size: 16px;
         font-weight: 300;
-        text-align: center;
-    }
-    
-    .vega-bind label span {
-        color: white;
-        font-family: 'Epilogue', sans-serif;
-    }
-    
-    .vega-bind label select {
-        color: white;
-        font-family: 'Epilogue', sans-serif;
-    }
-    
-    .vega-bind select {
-        background-color: transparent;
-    }
-    
-    .vega-bind select option {
-        background-color: #122b39;
     }
     /*Fig. 3 needs a slightly wider base */
     
