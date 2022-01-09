@@ -2,6 +2,7 @@ body {
     background-color: #122b39;
     max-width: 1000px;
     margin: auto;
+    align-items: center;
 }
 
 h1 {
@@ -31,44 +32,6 @@ p {
     text-align: left;
 }
 
-.chart {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: 390px;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 5px;
-    background-color: white;
-    border-style: solid;
-}
-
-.chart1 {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: 390px;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 5px;
-    background-color: #122b39;
-    border-style: solid;
-    border-color: #f4c245;
-    border-width: 1px;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .navigationbutton {
     background-color: #f4c245;
     border: 10px solid #f4c245;
@@ -78,7 +41,7 @@ p {
     font-weight: 600;
     border-radius: 150px;
     box-sizing: content-box;
-    align-items: flex-start;
+    align-items: center;
     display: inline-block;
     font-size: 12px;
     margin: 1px 2px 1px 2px;
@@ -87,16 +50,15 @@ p {
     outline-offset: 2px;
     overflow: hidden;
     padding: 5px 12px;
-    text-align: left;
+    text-align: Center;
     text-overflow: ellipsis;
     font-size: 20px;
 }
 
-.buttondiv {
-    display: flex;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+
+/* The width adjusts the site to the device in normal view and landscape view */
+
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
 }

@@ -65,7 +65,7 @@
     
     .container {
         display: flex;
-        align-items: center;
+        align-items: left;
         justify-content: center;
     }
     /* Styles my selectors and sliders in my charts */
@@ -112,12 +112,48 @@
         text-align: left;
         text-overflow: ellipsis;
     }
+    /* The width adjusts the site to the device in normal view and landscape view */
     
-    .buttondiv {
-        display: flex;
-        top: 50%;
-        left: 50%;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
+    @viewport {
+        zoom: 1.0;
+        width: extend-to-zoom;
+    }
+    /*----------------------------------------------------------------------------------------------------------------
+                                            DIFFERENT SCREEN SIZES
+    -----------------------------------------------------------------------------------------------------------------*/
+    
+    @media screen and (max-width: 959px) {
+        .container {
+            width: 100%
+        }
+        .chart {
+            width: 100%;
+        }
+        .chart1 {
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 640px) {
+        .container {
+            width: 100%
+        }
+        .chart {
+            width: 100%;
+        }
+        .chart1 {
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 320px) {
+        .container {
+            width: 320px;
+        }
+        .chart {
+            width: 100%;
+        }
+        .chart1 {
+            width: 100%;
+        }
     }
