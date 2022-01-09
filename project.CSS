@@ -129,25 +129,8 @@
                                             DIFFERENT SCREEN SIZES
     -----------------------------------------------------------------------------------------------------------------*/
     
-    @media (max-width: 500px) {
-        body {
-            overflow-x: hidden;
-        }
-        .chart {
-            width: 380px;
-        }
-        .chart1 {
-            width: 380px;
-            position: relative;
-        }
-        h1 {
-            font-size: 150px;
-            color: seagreen;
-        }
-        h2 {
-            font-size: 40px
-        }
-        p {
-            font-size: 35px
+    @media screen and (max-width: 959px) {
+        #container {
+            width: 100%
         }
     }
