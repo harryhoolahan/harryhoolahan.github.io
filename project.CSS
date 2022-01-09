@@ -26,6 +26,7 @@
     h3 {
         color: #f4c245;
         font-family: 'Poppins', sans-serif;
+        font-size: 28px;
     }
     
     h4 {
@@ -35,10 +36,11 @@
     }
     
     p {
-        font-family: 'Poppins', sans-serif;
+        font-family: Arial;
         color: white;
         margin-left: auto;
         margin-right: auto;
+        font-size: 18px;
     }
     /* Divisions to contain my charts*/
     
@@ -145,6 +147,9 @@
         .chart1 {
             width: 95%;
         }
+        p {
+            font-size: 12px;
+        }
     }
     
     @media screen and (max-width: 640px) {
@@ -162,6 +167,10 @@
         .chart1 {
             width: 95%;
         }
+    }
+    
+    p {
+        font-size: 12px;
     }
     
     @media screen and (max-width: 320px) {
