@@ -21,7 +21,7 @@
     }
     
     h3 {
-        color: white;
+        color: red;
         font-family: 'Poppins', sans-serif;
     }
     
@@ -143,6 +143,40 @@
             grid-column-gap: 10px;
             grid-row-gap: 40px;
             text-align: left;
+        }
+        /*Stlying for charts that include filtering sliders and selectors */
+        .chart {
+            background-color: #122b39;
+            border-style: solid;
+            border-color: #f4c245;
+            color: #dbd8d8ec;
+            border-width: 1px;
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            width: 600px;
+            height: 600px;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 3px;
+            float: left;
+        }
+        /*Stlying for charts that do not include filtering sliders and selectors */
+        .chart1 {
+            background-color: #122b39;
+            border-style: solid;
+            border-color: #f4c245;
+            color: #dbd8d8ec;
+            border-width: 1px;
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            width: 600px;
+            height: 600px;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 3px;
+            float: left;
         }
     }
     /* Two columns*/
