@@ -119,6 +119,12 @@
         text-align: left;
         text-overflow: ellipsis;
     }
+    /* The width adjusts the site to the device in normal view and landscape view */
+    
+    @viewport {
+        zoom: 1.0;
+        width: extend-to-zoom;
+    }
     /*----------------------------------------------------------------------------------------------------------------
                                             DIFFERENT SCREEN SIZES
     -----------------------------------------------------------------------------------------------------------------*/
