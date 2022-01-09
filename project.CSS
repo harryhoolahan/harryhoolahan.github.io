@@ -8,8 +8,11 @@
             margin: auto;
         }
         h1 {
-            color: #f4c245;
+            color: rgb(185, 33, 33);
             font-family: 'Poppins', sans-serif;
+            text-align: center;
+            font-size: 70px;
+            margin-top: 50px;
         }
         h2 {
             color: #f4c245;

@@ -12,7 +12,8 @@
 
     <!--Linking my CSS file-->
     <link rel="stylesheet" href="portfolio.css">
-
+    <!--Main title-->
+    <h1>Data Science Portfolio 2021</h1>
 </head>
 
 <!-- /////////////////// END HEAD //////////////////////////////////// -->
@@ -20,11 +21,11 @@
 
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
 
-
-<h1>Data Science Portfolio 2021</h1>
 <!--Here are the buttons that link to my project and back to the homepage-->
 <a class="navigationbutton" href="index.html">Homepage</a>
 <a class="navigationbutton" href="project.html">Project</a>
+<a class="navigationbutton" href="https://github.com/harryhoolahan/harryhoolahan.github.io">GitHub</a>
+<a class="navigationbutton" href="https://rapidcharts.io/datascience">RapidCharts</a>
 
 <!-- ///////////////////  Week 1 //////////////////////////////////// -->
 <h2>Week 1 - Introduction to HTML</h2>
@@ -188,12 +189,13 @@
 
 <!-- ///////////////////  Week 9 ////////////////////////////////////// -->
 <h2>Week 9 - Advanced Analytics </h2>
-<p>I used the Matplotlib and Scit-learn packages in a data explanatory analysis to look into the relationship between a countries GDP, and their performance at the 2016 Rio Olympics.
+<p>The prices of BTC and ETH were accessed by donwloading CSV files from Yahoo Finance website, and loaded into python. The files were converted to pandas data frames and merged on the 'Date' variable. Lastly, I included a OLS regression line through the
+    regression module in Vega-Lite. Clearly, there is a fairly strong positive relationship between the prices of the two cryptocurrencies.
 </p>
 
 <div class="container">
     <!--Chart 16 -->
-    <div class="chart" id="chart16">
+    <div class="chart1" id="chart16">
         <script>
             var myChart16 = "week9/BTC_ETH_price_2021_Chart.json";
             vegaEmbed('#chart16', myChart16);
