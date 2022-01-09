@@ -55,6 +55,15 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: 10px;
         }
+        /* Styles my selectors and sliders in my charts */
+        
+        .vega-bind-name {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: center;
+        }
         /*Stlying for charts that don't include filtering sliders and selectors */
         
         .chart2 {
@@ -131,8 +140,8 @@
         @media screen and (max-width: 959px) {
             body {
                 overflow-x: hidden;
-                margin-left: 0%;
-                margin-right: 0%;
+                margin-left: 1%;
+                margin-right: 1%;
             }
             h1 {
                 font-size: 20px;
