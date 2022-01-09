@@ -51,7 +51,7 @@
     /*Stlying for charts that include filtering sliders and selectors */
     
     .chart {
-        width: 370px;
+        width: 375px;
         height: 450px;
         padding: 5px;
         background-color: #122b39;
@@ -88,7 +88,7 @@
     /*Stlying for charts that do not include filtering sliders and selectors */
     
     .chart1 {
-        width: 370px;
+        width: 375px;
         height: 380px;
         padding: 5px;
         background-color: #122b39;
@@ -157,7 +157,7 @@
             width: 95%;
         }
         .figure3 {
-            width: 95%
+            width: 90%
         }
         .chart1 {
             width: 95%;
@@ -171,12 +171,12 @@
             margin-right: 3%;
         }
         .chart {
-            width: 100%;
+            width: 95%;
         }
         .figure3 {
-            width: 100%
+            width: 90%
         }
         .chart1 {
-            width: 100%;
+            width: 95%;
         }
     }
