@@ -4,10 +4,7 @@
         background-color: #122b39;
         margin-left: 30px;
         margin-right: 30px;
-        background-size: cover;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+        background-size: 200% 200%;
     }
     
     h1 {
@@ -42,7 +39,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    /* Divisions to contain my charts and text */
+    /* Divisions to contain my charts*/
     
     .container {
         display: flex;
@@ -54,33 +51,28 @@
     /*Stlying for charts that include filtering sliders and selectors */
     
     .chart {
+        width: 400px;
+        height: 390px;
+        margin: 10px;
+        padding: 5px;
         background-color: #122b39;
-        border-style: solid;
-        border-color: #f4c245;
-        color: #dbd8d8ec;
-        border-width: 1px;
+        border: #f4c245 solid 1px;
         font-family: Arial, Helvetica, sans-serif;
-        max-width: 370px;
+        font-size: 10pxp;
         border-radius: 10px;
-        margin-left: 50px;
-        padding: 3px;
-        float: left;
     }
     /*Stlying for charts that do not include filtering sliders and selectors */
     
     .chart1 {
+        width: 400px;
+        height: 390px;
+        margin: 10px;
+        padding: 5px;
         background-color: #122b39;
-        border-style: solid;
-        border-color: #f4c245;
-        color: #dbd8d8ec;
-        border-width: 1px;
+        border: #f4c245 solid 1px;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
-        max-width: 370px;
+        font-size: 10pxp;
         border-radius: 10px;
-        margin-left: 50px;
-        padding: 3px;
-        float: left;
     }
     /* Styles my selectors and sliders in my charts */
     
