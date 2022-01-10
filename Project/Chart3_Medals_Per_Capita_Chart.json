@@ -15,7 +15,7 @@
     },
     "config": { "background": "#122b39" },
     "height": 300,
-    "width": 230,
+    "width": 210,
     "data": {
         "url": "https://raw.githubusercontent.com/harryhoolahan/harryhoolahan.github.io/main/Project/World_Bank_Medal_Winners_Table_Data.csv"
     },
@@ -38,7 +38,7 @@
             { "field": "People per medal", "title": "Medals per capita" }
         ],
         "x": {
-            "title": "",
+            "title": "Medals per capita",
             "field": "People per medal",
             "type": "quantitative",
             "axis": {
