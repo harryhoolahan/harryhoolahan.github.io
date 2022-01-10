@@ -40,7 +40,6 @@
         color: white;
         margin-left: auto;
         margin-right: auto;
-        font-size: 18px;
     }
     /* Divisions to contain my charts*/
     
@@ -148,7 +147,7 @@
             width: 95%;
         }
         p {
-            font-size: 12px;
+            font-size: 16px;
         }
     }
     
@@ -170,7 +169,7 @@
     }
     
     p {
-        font-size: 12px;
+        font-size: 21px;
     }
     
     @media screen and (max-width: 320px) {
@@ -187,5 +186,8 @@
         }
         .chart1 {
             width: 95%;
+        }
+        P {
+            font-size: 20px;
         }
     }
