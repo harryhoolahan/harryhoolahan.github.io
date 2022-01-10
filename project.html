@@ -39,7 +39,7 @@
     </h3>
 
     <div class="container">
-        <!--Chart 1: this chart is a scatter plot of GDP against Olympic medals won against countries -->
+        <!--Chart 1: This chart is a scatter plot of GDP against Olympic medals won by countries -->
         <div class="chart" id="chart1">
             <script>
                 var myChart1 = "Project/Chart1_GDP_Olympic_Medals_Chart.json";
@@ -51,19 +51,17 @@
             Filtering by continent reveals that Europe exhibits the strongest positive correlation between GDP and medals won, and Africa the weakest. Excluding Kenya, Ethopia, and South Africa, African nations generally perform poorly in the olympics
             irrespective of the size of their economy. Nigeria has one of the largest economies in Africa, but was only able to secure one bronze medal in Rio 2016.</p>
 
-        <p>While creating this visualisation, I decided to use GDP converted using the purchasing power parity (PPP) exchange rate because PPP allows for better cross-country comparison. In creating this chart, I decided to use GDP that had been converted
-            using the purchasing power parity (PPP) exchange rate becasue it allows for better cross-country comparison. GDP was also priced at USD 2017 constant 2017 prices to remove the effect of inflation over time between the games. A challenge in
-            creating this visualisation was mapping countries on the same chart with very large variances in total GDP levels. For example, the US economy totalled $19,097 billion in 2016, whereas the South Pacific island nation Tuvalu's GDP was only
-            $0.04 billion. I accounted for this issue by using a logarithmic scale on the x-axis.</p>
+        <p>While creating this visualisation, I decided to use GDP converted using the purchasing power parity (PPP) exchange rate because PPP allows for better cross-country comparison. GDP was also priced at USD 2017 constant 2017 prices to remove the
+            effect of inflation over time between the games. A challenge in creating this visualisation was mapping countries on the same chart with very large variances in total GDP levels. For example, the US economy totalled $19,097 billion in 2016,
+            whereas the South Pacific island nation Tuvalu's GDP was only $0.04 billion. I accounted for this issue by using a logarithmic scale on the x-axis.</p>
     </div>
     </div>
-
 
     <h3>Question 2: How strong is the relationship between population size and their performance at the summer Olympics?
     </h3>
 
     <div class="container">
-        <!--Chart 2 -->
+        <!--Chart 2: This chart is a scatter plot of population size against Olympic medals won by countries-->
         <div class="chart" id="chart2">
             <script>
                 var myChart2 = "Project/Chart2_Population_Medals.json";
@@ -73,18 +71,19 @@
     </div>
     <!--Paragraphs analysing the results-->
     <p>Fig.2 looks visually very similar to Fig.1, which is unsurprising given that population size is a strong determinant of the size of a countries economy. Here we see that there is also a strong positive relationship between a countries population size
-        and the number of medals they win. This effect could be explained by greater player pools. China boasts a significant population size of 1,387.79 million people, increasing the likelihood owning olympic athletes capable of qualifying. However,
-        India seems to not follow this trend; their population is almost as large as China's and yet they perform considerbaly worse, only achieving two medals in 2016.
+        and the number of medals they win. This effect is likely explained by greater player pools. China boasts a significant population size of 1,387.79 million people, increasing the likelihood of fostering athletes capable of qualifying. However,
+        India does not follow this trend; their population is almost as large as China's and yet they perform considerbaly worse, only achieving two medals in 2016.
 
-        <p>Like in Fig.1 I employed a logarithmic scale on the x-axis becasue spread the scatters out more on the visulisation, allowing for better visual analysis.</p>
+        <p>Like in Fig.1, I employed a logarithmic scale on the x-axis to visualise both very large and very small population sizes on one visualisation.
+        </p>
 
-        <h3>Question 3: Which countries outperform in the olympics, considering their population?</h3>
+        <h3>Question 3: Which countries overachieve in the olympics, considering their population size?</h3>
 
         <div class="container">
-            <!--Chart 3 -->
+            <!--Chart 3: This chart is a bar chart ranking countries by the  -->
             <div class="figure3" id="chart3">
                 <script>
-                    var myChart3 = "Project/Chart3_Medals_Per_Capita_Chart.json";
+                    var myChart3 = "Project/Chart3_People_Per_Medal_Chart.json";
                     vegaEmbed('#chart3', myChart3);
                 </script>
             </div>
