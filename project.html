@@ -106,19 +106,21 @@
             </div>
         </div>
         <!--Analysing the results-->
-        <p>Chart 4 highlights a weak relationship between public money spent on sports and recreation and medals won. Luxembourg and Iceland stand out in terms of poor return on investment: on average durin the olympic cycle through to the Rio games they
-            have invested €435.45 and €495.43 per capita respectively and gained no medals at Rio.
+        <p>A weak relationship between public money expenditure on sports and recreation, and medals won was surprising. I hypothesised that rich countries generally gain more medals becasue they have greater funds available to invest in sporting facilities
+            needed for athletes to train. However, this relationship was not shown in the 31 European countries I had data for.
         </p>
-        <p>On the other hand, the United Kingdom gained a signficant return on investment. The UK won 67 medals, only spending €75.70 per capita on average. </p>
+        <p>Luxembourg and Iceland stand out in terms of a poor return on invesment for Rio 2016; the two countries averaged €435.45 and €495.43 per capita respectively, gaining no medals at Rio 2016. Conversely, the United Kingdom gained a significant return
+            on investment, acquiring 67 medals and only investing €75.70 per capita on average.
+        </p>
 
         <!--Final section title-->
-        <h3>Information on how the data was accessed and challenges in the data cleaning:</h3>
+        <h3>Information on how the data was accessed and challenges in data cleaning:</h3>
         <!--Final section paragraph providing information on how the data was accessed-->
-        <p>For Figures 1-3, I accessed GDP (NY.GDP.MKTP.PP.KD) and population (SP.POP.TOTL) data from the World Bank API. By installing the WBGAPI python package on google colab, I was able to request the World Development Indicators (WDI).
-        </p>
-        <p>To access olympic medals data for the three games, I used the python package BeautifulSoup to web scrape Wikipedia pages.</p>
-        <p>As part of my analysis, I needed to perform a data join of the WDI indicators on olympic medals. However, it proved challenging merging the datasets together by country name becasue many observations did not match. To overcome this I used the
-            World Bank economy coder function to access the 3 digit ISO codes recognised by the world bank for the country names.
+        <p>For figures 1-3, I accessed GDP (NY.GDP.MKTP.PP.KD) and population (SP.POP.TOTL) data from the World Bank API. By installing the WBGAPI python package on google colab, I was able to request, and load the World Development Indicators (WDI) into
+            a pandas data frame. To access olympic medals data for the three games, I used the python package BeautifulSoup to web scrape Wikipedia pages fetching data from Olympics.com. For fig. 4, I accessed public expenditure data through donwloading
+            CSV files from the Eurostat website.</p>
+        <p>As part of my analysis, I performed a data join with the WDI indicators and olympic medals. Merging the datasets by country name proved challenging because there were many cases where different country names had been used by the World Bank compared
+            to the scraped data. To overcome this, I used the World Bank economy coder function in pyhthon to access the 3 digit ISO codes recognised by the world bank for the country names. I then perfomed my join by ISO codes.
         </p>
 
 
